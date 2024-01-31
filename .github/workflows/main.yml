@@ -1,0 +1,24 @@
+name: Daily update
+on:
+  schedule:
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-calendar:
+    name: update-calendar
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+    - run: |
+        pip install -r requirements.txt
+        python perfect.py
+        git add .
+        if [ $(git status --porcelain=v1 2>/dev/null | wc -l) -eq 0 ]; then
+          exit 0
+        fi
+        git config --global user.name 'pro-tour-bot'
+        git config --global user.email '<>'
+        git commit -m "update calendars"
+        git push
