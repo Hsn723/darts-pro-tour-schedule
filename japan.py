@@ -1,5 +1,5 @@
 import re
-import urllib.request
+import urllib.request, urllib.error
 from bs4 import BeautifulSoup
 from datetime import datetime
 from icalendar import Calendar, Event, vText
@@ -12,11 +12,12 @@ JAPAN_CAL_PRODID = '-//JAPAN Pro Tour Unofficial Calendar//JAPAN Pro Tour Unoffi
 JAPAN_ICAL_FILE = 'calendars/japan.ics'
 
 class JapanEvent:
-    def __init__(self, stage: str, location: str, start_dates: List[datetime], venue: str, is_ex: bool):
+    def __init__(self, stage: str, location: str, start_dates: List[datetime], venue: str, description: str, is_ex: bool):
         self._stage = stage
         self._location = location
         self._start_dates = start_dates
         self._venue = venue
+        self._description = description
         self._is_ex = is_ex
 
     @property
@@ -36,6 +37,10 @@ class JapanEvent:
         return self._venue
 
     @property
+    def description(self) -> str:
+        return self._description
+
+    @property
     def is_ex(self) -> bool:
         return self._is_ex
 
@@ -52,6 +57,26 @@ def get_raw_start_dates(raw_dates: List[str]) -> List[datetime]:
     return start_dates
 
 
+def get_description(japan_year: int, stage: str) -> str:
+    url = 'https://japanprodarts.jp/{}/{}.php'.format(japan_year, stage)
+    req = urllib.request.Request(url, method='HEAD')
+    try:
+        resp = urllib.request.urlopen(req)
+        if resp.status == 200:
+            return url
+    except urllib.error.HTTPError:
+        pass
+    url = 'https://japanprodarts.jp/{}/{}.php'.format(japan_year, stage.lower())
+    req = urllib.request.Request(url, method='HEAD')
+    try:
+        resp = urllib.request.urlopen(req)
+        if resp.status == 200:
+            return url
+    except urllib.error.HTTPError:
+        pass
+    return ''
+
+
 def get_schedule() -> List[JapanEvent]:
     with urllib.request.urlopen(JAPAN_SCHED_URL) as f:
         raw_content = f.read()
@@ -59,6 +84,7 @@ def get_schedule() -> List[JapanEvent]:
         schedule = parsed_content.find_all('article', id='schedule', limit=1)[0]
         year_raw = schedule.find_all('option', selected=True, limit=1)[0].string
         year = int(year_raw.replace('年', ''))
+        japan_year = year
         stages = parsed_content.find_all('section')
         prev_month = 0
         events = []
@@ -76,7 +102,8 @@ def get_schedule() -> List[JapanEvent]:
             location = stage.find('dt', string=re.compile('エリア')).find_next_sibling().string
             venue = stage.find('dt', string=re.compile('会場')).find_next_sibling().string
             is_ex = stage.find(class_='exciting_stageicon') is not None
-            events.append(JapanEvent(stage_num, location, start_dates, venue, is_ex))
+            description = get_description(japan_year, stage_num)
+            events.append(JapanEvent(stage_num, location, start_dates, venue, description, is_ex))
     return events
 
 
@@ -92,6 +119,7 @@ def get_ical_events(je: JapanEvent) -> List[Event]:
         if je.is_ex:
             summary += ' (EX)'
         event.add('summary', summary)
+        event.add('description', je.description)
         event['location'] = vText(je.venue)
         event['uid'] = '{}@{}'.format(event['dtstart'].to_ical().decode('utf-8'), je.stage)
         events.append(event)
