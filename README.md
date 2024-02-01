@@ -11,4 +11,4 @@
 
 ## 利用方法
 
-`calendars/`にある`.ics`ファイルをカレンダーアプリに落とし込むか、ファイルURLを用いてカレンダーアプリに追加する。ファイル読み込みの場合、読み込み以降に更新は反映されないのでご注意ください。
+`calendars/`にある`.ics`ファイルをカレンダーアプリに落とし込むか、ファイルURL (例: https://raw.githubusercontent.com/Hsn723/darts-pro-tour-schedule/master/calendars/perfect.ics )を用いてカレンダーアプリに追加する。ファイル読み込みの場合、読み込み以降に更新は反映されないのでご注意ください。
