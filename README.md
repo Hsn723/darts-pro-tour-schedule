@@ -8,6 +8,7 @@
 現在以下のプロ団体の大会日程に対応してる。
 
 - [PERFECT](https://www.prodarts.jp/)
+- [JAPAN](https://japanprodarts.jp/)
 
 ## 利用方法
 
