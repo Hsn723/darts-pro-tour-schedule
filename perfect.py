@@ -1,5 +1,5 @@
 import re
-import urllib.request
+import urllib.request, urllib.error
 from bs4 import BeautifulSoup
 from datetime import datetime
 from icalendar import Calendar, Event, vText
@@ -82,6 +82,17 @@ def get_start_dates(raw_date: List[str]) -> List[datetime]:
     return start_dates
 
 
+def get_description(date: str) -> str:
+    url = 'https://www.prodarts.jp/archives/outline/{}'.format(date[:date.index('T')])
+    req = urllib.request.Request(url, method='HEAD')
+    try:
+        resp = urllib.request.urlopen(req)
+        if resp.status == 200:
+            return url
+    except urllib.error.HTTPError:
+        return ''
+
+
 def get_ical_events(pe: PerfectEvent) -> List[Event]:
     events = []
     for start_date in pe.start_dates:
@@ -98,6 +109,7 @@ def get_ical_events(pe: PerfectEvent) -> List[Event]:
         event.add('summary', 'PERFECT {}: {} ({}) ({})'.format(pe.stage, pe.location, '/'.join(participants), pe.point))
         event['location'] = vText(pe.venue)
         event['uid'] = '{}@{}'.format(event['dtstart'].to_ical().decode('utf-8'), pe.stage)
+        event.add('description', get_description(event['dtstart'].to_ical().decode('utf-8')))
         events.append(event)
     return events
 
