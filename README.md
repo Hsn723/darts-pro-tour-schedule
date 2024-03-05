@@ -9,6 +9,7 @@
 
 - [PERFECT](https://www.prodarts.jp/)
 - [JAPAN](https://japanprodarts.jp/)
+- [D-TOUR](https://www.da-topi.jp/)
 
 ## 利用方法
 
@@ -20,6 +21,7 @@
 
 - PERFECTの場合: `https://raw.githubusercontent.com/Hsn723/darts-pro-tour-schedule/master/calendars/perfect.ics`
 - JAPANの場合: `https://raw.githubusercontent.com/Hsn723/darts-pro-tour-schedule/master/calendars/japan.ics`
+- D-TOURの場合: `https://raw.githubusercontent.com/Hsn723/darts-pro-tour-schedule/master/calendars/d-tour.ics`
 
 そのURLを控えてお使いになる暦アプリに適宜追加することで自動更新されます(以下参考例)。
 
