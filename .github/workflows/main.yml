@@ -13,9 +13,7 @@ jobs:
     - uses: actions/setup-python@v5
     - run: |
         pip install -r requirements.txt
-        python perfect.py
-        python japan.py
-        python d-tour.py
+        python update-calendars.py
         git add .
         if [ $(git status --porcelain=v1 2>/dev/null | wc -l) -eq 0 ]; then
           exit 0
