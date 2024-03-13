@@ -5,7 +5,7 @@ import urllib.request
 from bs4 import BeautifulSoup, ResultSet
 from datetime import datetime
 from icalendar import Calendar
-from typing import List
+from typing import List, Tuple
 
 from event import *
 
@@ -102,8 +102,7 @@ class JapanTour(Tour):
             raw_content = f.read()
         parsed_content = BeautifulSoup(raw_content, 'html.parser')
         schedule = parsed_content.find_all('article', id='schedule', limit=1)[0]
-        year_raw = schedule.find_all('option', selected=True, limit=1)[0].string
-        year = int(year_raw.replace('年', ''))
+        year = int(parsed_content.find_all('span', class_='numArea', limit=1)[0].get_text().strip())
         japan_year = year
         stages = parsed_content.find_all('section')
         prev_month = 0
@@ -161,6 +160,17 @@ class DTour(Tour):
         sched_rows = sched_table.find('tbody').find_all('tr')
         return sched_rows
 
+    def _get_connect_prelim_period(self, prelim_dates: str) -> Tuple[datetime, datetime]:
+        raw_dates = prelim_dates.split('\n\xa0～\xa0')
+        if len(raw_dates) != 2:
+            return None
+        full_dates = []
+        for raw_date in raw_dates:
+            formatted_date = re.sub(r'\([^)]+\)', ' ', raw_date)
+            full_date = datetime.strptime(formatted_date, '%m/%d %H:%M').replace(year=datetime.now().year)
+            full_dates.append(full_date)
+        return full_dates[0], full_dates[1]
+
     def _get_connect_schedule(self) -> List[TourEvent]:
         sched_rows = self._get_dtour_schedule(self.D_TOUR_CONNECT_SCHED_URL)
         events = []
@@ -178,6 +188,11 @@ class DTour(Tour):
             prelim_url = '予選会場: {}'.format(prelim_url) if prelim_url else ''
             prelim_info = '予選:{}\n{}'.format(prelim_dates, prelim_url)
             events.append(DTourEvent(stage, start_date, 'CONNECT', details_url, prelim_info))
+            prelim_period = self._get_connect_prelim_period(prelim_dates)
+            if prelim_period is not None:
+                stage_prelim = '{} (予選)'.format(stage)
+                prelim_start, prelim_end = prelim_period
+                events.append(DTourEvent(stage_prelim, prelim_start, 'CONNECT', '', prelim_info, prelim_end))
         return events
 
     def _get_arena_schedule(self) -> List[TourEvent]:

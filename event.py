@@ -122,11 +122,18 @@ class JapanEvent(TourEvent):
 
 class DTourEvent(TourEvent):
     END_HOUR = 22
-    def __init__(self, stage: str, start_date: datetime, division: str, details_url: str, prelim_info: str):
+    def __init__(self, stage: str, start_date: datetime, division: str, details_url: str, prelim_info: str, end_date: datetime = None):
         self._division = division
         self._details_url = details_url
         self._prelim_info = prelim_info
+        self._end_date = end_date
         super().__init__(stage, start_date, self.END_HOUR)
+
+    @property
+    def end_date(self) -> datetime:
+        if self._end_date is not None:
+            return self._end_date
+        return self.start_date.replace(hour=self._end_hour)
 
     def get_summary(self) -> str:
         return 'DTOUR {} {}'.format(self._division, self.stage)
