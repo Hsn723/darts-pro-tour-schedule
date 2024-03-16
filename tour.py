@@ -160,7 +160,7 @@ class DTour(Tour):
         sched_rows = sched_table.find('tbody').find_all('tr')
         return sched_rows
 
-    def _get_connect_prelim_period(self, prelim_dates: str) -> Tuple[datetime, datetime]:
+    def _get_prelim_period(self, prelim_dates: str) -> Tuple[datetime, datetime]:
         raw_dates = prelim_dates.split('\n\xa0～\xa0')
         if len(raw_dates) != 2:
             return None
@@ -188,7 +188,7 @@ class DTour(Tour):
             prelim_url = '予選会場: {}'.format(prelim_url) if prelim_url else ''
             prelim_info = '予選:{}\n{}'.format(prelim_dates, prelim_url)
             events.append(DTourEvent(stage, start_date, 'CONNECT', details_url, prelim_info))
-            prelim_period = self._get_connect_prelim_period(prelim_dates)
+            prelim_period = self._get_prelim_period(prelim_dates)
             if prelim_period is not None:
                 stage_prelim = '{} (予選)'.format(stage)
                 prelim_start, prelim_end = prelim_period
@@ -210,6 +210,11 @@ class DTour(Tour):
             prelim_url = '予選会場: {}'.format(prelim_url) if prelim_url else ''
             prelim_info = '予選:\n{}\n{}'.format(prelim_dates, prelim_url)
             events.append(DTourEvent(stage, start_date, 'ARENA', details_url, prelim_info))
+            prelim_period = self._get_prelim_period(prelim_dates)
+            if prelim_period is not None:
+                stage_prelim = '{} (予選)'.format(stage)
+                prelim_start, prelim_end = prelim_period
+                events.append(DTourEvent(stage_prelim, prelim_start, 'ARENA', '', prelim_info, prelim_end))
         return events
 
     def get_schedule(self) -> List[TourEvent]:
