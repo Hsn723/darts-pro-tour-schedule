@@ -144,13 +144,22 @@ class DTour(Tour):
         except (ValueError, TypeError):
             return None
 
-    def _get_arena_start_date(self, raw_date:  str) -> datetime:
+    def _get_timeless_arena_start_date(self, raw_date: str) -> datetime:
+        temporary_start_time = 10
+        try:
+            formatted_date = re.sub(r'\([^)]+\)', '', raw_date)
+            full_date = datetime.strptime(formatted_date, '%m/%d-').replace(year=datetime.now().year, hour=temporary_start_time)
+            return full_date
+        except (ValueError, TypeError):
+            return None
+
+    def _get_arena_start_date(self, raw_date: str) -> datetime:
         try:
             formatted_date = re.sub(r'\([^)]+\)', '-', raw_date)
             full_date = datetime.strptime(formatted_date, '%m/%d-%H:%M').replace(year=datetime.now().year)
             return full_date
         except (ValueError, TypeError):
-            return None
+            return self._get_timeless_arena_start_date(raw_date)
 
     def _get_dtour_schedule(self, url: str) -> ResultSet:
         with urllib.request.urlopen(url) as f:
