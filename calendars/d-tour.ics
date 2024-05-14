@@ -162,9 +162,7 @@ DTEND:20240506T222000
 DTSTAMP:20240506T162000Z
 UID:20240506T162000@第４戦: 福岡
 DESCRIPTION:大会詳細: https://www.da-topi.jp/info/phoenixcup_fuku/\n
- 予選:\n4/11(木)19:00\n ～ 4/25(木)12:00\n予選会場: https://aa2f
- caaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8b292855dbaf407
- ddd0d75d322768d1057ddd4b
+ 予選:\n4/11(木)19:00\n ～ 4/25(木)12:00\n
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 第４戦: 福岡 (予選)
@@ -172,9 +170,7 @@ DTSTART:20240411T190000
 DTEND:20240425T120000
 DTSTAMP:20240411T190000Z
 UID:20240411T190000@第４戦: 福岡 (予選)
-DESCRIPTION:\n予選:\n4/11(木)19:00\n ～ 4/25(木)12:00\n予選会場
- : https://aa2fcaaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8
- b292855dbaf407ddd0d75d322768d1057ddd4b
+DESCRIPTION:\n予選:\n4/11(木)19:00\n ～ 4/25(木)12:00\n
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 第５戦: 鹿児島
@@ -183,7 +179,9 @@ DTEND:20240609T220000
 DTSTAMP:20240609T100000Z
 UID:20240609T100000@第５戦: 鹿児島
 DESCRIPTION:大会詳細: https://www.da-topi.jp/info/phoenixcup_kago/\n
- 予選:\n5/16(木)19:00\n ～ 5/30(木)12:00\n
+ 予選:\n5/16(木)19:00\n ～ 5/30(木)12:00\n予選会場: https://aa2f
+ caaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8b292855dbaf407
+ ddd0d75d322768d1057ddd4b
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 第５戦: 鹿児島 (予選)
@@ -191,7 +189,9 @@ DTSTART:20240516T190000
 DTEND:20240530T120000
 DTSTAMP:20240516T190000Z
 UID:20240516T190000@第５戦: 鹿児島 (予選)
-DESCRIPTION:\n予選:\n5/16(木)19:00\n ～ 5/30(木)12:00\n
+DESCRIPTION:\n予選:\n5/16(木)19:00\n ～ 5/30(木)12:00\n予選会場
+ : https://aa2fcaaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8
+ b292855dbaf407ddd0d75d322768d1057ddd4b
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 第６戦: 西九州
