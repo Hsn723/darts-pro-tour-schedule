@@ -190,10 +190,7 @@ DTSTART:20240707T162000
 DTEND:20240707T222000
 DTSTAMP:20240707T162000Z
 UID:20240707T162000@第６戦: 西九州
-DESCRIPTION:大会詳細: https://www.da-topi.jp/info/phoenixcup_nishi/\n
- 予選:\n6/13(木)19:00\n ～ 6/27(木)12:00\n予選会場: https://aa2f
- caaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8b292855dbaf407
- ddd0d75d322768d1057ddd4b
+DESCRIPTION:\n予選:\n6/13(木)19:00\n ～ 6/27(木)12:00\n
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 第６戦: 西九州 (予選)
@@ -201,9 +198,7 @@ DTSTART:20240613T190000
 DTEND:20240627T120000
 DTSTAMP:20240613T190000Z
 UID:20240613T190000@第６戦: 西九州 (予選)
-DESCRIPTION:\n予選:\n6/13(木)19:00\n ～ 6/27(木)12:00\n予選会場
- : https://aa2fcaaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8
- b292855dbaf407ddd0d75d322768d1057ddd4b
+DESCRIPTION:\n予選:\n6/13(木)19:00\n ～ 6/27(木)12:00\n
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 第７戦: 久留米
