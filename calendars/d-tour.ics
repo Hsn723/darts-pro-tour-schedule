@@ -207,9 +207,7 @@ DTEND:20240804T222000
 DTSTAMP:20240804T162000Z
 UID:20240804T162000@第７戦: 久留米
 DESCRIPTION:大会詳細: https://www.da-topi.jp/info/phoenixcup_kurume/\n
- 予選:\n7/11(木)19:00\n ～ 7/25(木)12:00\n予選会場: https://aa2f
- caaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8b292855dbaf407
- ddd0d75d322768d1057ddd4b
+ 予選:\n7/11(木)19:00\n ～ 7/25(木)12:00\n
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 第７戦: 久留米 (予選)
@@ -217,18 +215,18 @@ DTSTART:20240711T190000
 DTEND:20240725T120000
 DTSTAMP:20240711T190000Z
 UID:20240711T190000@第７戦: 久留米 (予選)
-DESCRIPTION:\n予選:\n7/11(木)19:00\n ～ 7/25(木)12:00\n予選会場
- : https://aa2fcaaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8
- b292855dbaf407ddd0d75d322768d1057ddd4b
+DESCRIPTION:\n予選:\n7/11(木)19:00\n ～ 7/25(木)12:00\n
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 第８戦: 熊本
-DTSTART:20240901T100000
-DTEND:20240901T220000
-DTSTAMP:20240901T100000Z
-UID:20240901T100000@第８戦: 熊本
+DTSTART:20240901T162000
+DTEND:20240901T222000
+DTSTAMP:20240901T162000Z
+UID:20240901T162000@第８戦: 熊本
 DESCRIPTION:大会詳細: https://www.da-topi.jp/info/phoenixcup_kuma/\n
- 予選:\n8/8(木)19:00\n ～ 8/22(木)12:00\n
+ 予選:\n8/8(木)19:00\n ～ 8/22(木)12:00\n予選会場: https://aa2fc
+ aaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8b292855dbaf407d
+ dd0d75d322768d1057ddd4b
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 第８戦: 熊本 (予選)
@@ -236,7 +234,9 @@ DTSTART:20240808T190000
 DTEND:20240822T120000
 DTSTAMP:20240808T190000Z
 UID:20240808T190000@第８戦: 熊本 (予選)
-DESCRIPTION:\n予選:\n8/8(木)19:00\n ～ 8/22(木)12:00\n
+DESCRIPTION:\n予選:\n8/8(木)19:00\n ～ 8/22(木)12:00\n予選会場:
+  https://aa2fcaaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8b
+ 292855dbaf407ddd0d75d322768d1057ddd4b
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 第９戦: 山口
