@@ -254,10 +254,7 @@ DTSTART:20241110T122000
 DTEND:20241110T222000
 DTSTAMP:20241110T122000Z
 UID:20241110T122000@最終戦: 久留米
-DESCRIPTION:大会詳細: https://www.da-topi.jp/info/phoenixcup_kurume/\n
- 予選:\n10/17(木)19:00\n ～ 10/31(木)12:00\n予選会場: https://aa
- 2fcaaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4de8b292855dbaf4
- 07ddd0d75d322768d1057ddd4b
+DESCRIPTION:\n予選:\n10/17(木)19:00\n ～ 10/31(木)12:00\n
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 最終戦: 久留米 (予選)
@@ -265,8 +262,6 @@ DTSTART:20241017T190000
 DTEND:20241031T120000
 DTSTAMP:20241017T190000Z
 UID:20241017T190000@最終戦: 久留米 (予選)
-DESCRIPTION:\n予選:\n10/17(木)19:00\n ～ 10/31(木)12:00\n予選会
- 場: https://aa2fcaaa.viewer.kintoneapp.com/public/7a0e5e1ab19c27a2bfbf2c4
- de8b292855dbaf407ddd0d75d322768d1057ddd4b
+DESCRIPTION:\n予選:\n10/17(木)19:00\n ～ 10/31(木)12:00\n
 END:VEVENT
 END:VCALENDAR
