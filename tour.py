@@ -188,8 +188,13 @@ class DTour(Tour):
             if len(details) == 1:
                 break
             stage = details[0].get_text().replace('本戦会場','').strip()
-            raw_date = details[1].string
-            start_date = self._get_connect_start_date(raw_date)
+            for raw_content in details[1].strings:
+                if raw_content.string is None:
+                    continue
+                raw_date = self._get_connect_start_date(raw_content.string.strip())
+                if raw_date is not None:
+                    start_date = raw_date
+                    break
             details_url = details[0].a.get('href')
             details_url = '本戦会場: {}'.format(details_url) if details_url else ''
             prelim_dates = details[3].get_text().replace('予選会場', '').replace(' ', '').strip()
