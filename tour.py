@@ -128,7 +128,7 @@ class JapanTour(Tour):
 
 class DTour(Tour):
     BASE_URL = 'https://www.da-topi.jp'
-    D_TOUR_BASE_URL = '{}/d-tour_{}'.format(BASE_URL, datetime.now().year)
+    D_TOUR_BASE_URL = '{}/d-tour_season4'.format(BASE_URL)
     D_TOUR_CONNECT_SCHED_URL = '{}/connect'.format(D_TOUR_BASE_URL)
     D_TOUR_ARENA_SCHED_URL = '{}/arena'.format(D_TOUR_BASE_URL)
     D_TOUR_CAL_PRODID = '-//D-TOUR Unofficial Calendar//D-TOUR Unofficial Calendar 1.0//'
@@ -139,7 +139,10 @@ class DTour(Tour):
     def _get_connect_start_date(self, raw_date: str) -> datetime:
         try:
             formatted_date = re.sub(r'\([^)]+\)', '', raw_date)
-            full_date = datetime.strptime(formatted_date, '%m/%d').replace(year=datetime.now().year, hour=10)
+            if re.match('\d{4}/\d{1,2}/\d{1,2}', formatted_date):
+                full_date = datetime.strptime(formatted_date, '%Y/%m/%d').replace(year=datetime.now().year, hour=10)
+            else:
+                full_date = datetime.strptime(formatted_date, '%m/%d').replace(year=datetime.now().year, hour=10)
             return full_date
         except (ValueError, TypeError):
             return None
@@ -176,12 +179,15 @@ class DTour(Tour):
         full_dates = []
         for raw_date in raw_dates:
             formatted_date = re.sub(r'\([^)]+\)', ' ', raw_date)
-            full_date = datetime.strptime(formatted_date, '%m/%d %H:%M').replace(year=datetime.now().year)
+            if re.match('\d{4}/\d{1,2}/\d{1,2}', formatted_date):
+                full_date = datetime.strptime(formatted_date, '%Y/%m/%d %H:%M').replace(year=datetime.now().year)
+            else:
+                full_date = datetime.strptime(formatted_date, '%m/%d %H:%M').replace(year=datetime.now().year)
             full_dates.append(full_date)
         return full_dates[0], full_dates[1]
 
-    def _get_connect_schedule(self) -> List[TourEvent]:
-        sched_rows = self._get_dtour_schedule(self.D_TOUR_CONNECT_SCHED_URL)
+    def _get_connect_schedule(self, url: str=D_TOUR_CONNECT_SCHED_URL) -> List[TourEvent]:
+        sched_rows = self._get_dtour_schedule(url)
         events = []
         for row in sched_rows:
             details = row('td')
@@ -233,5 +239,9 @@ class DTour(Tour):
 
     def get_schedule(self) -> List[TourEvent]:
         connect_schedule = self._get_connect_schedule()
-        arena_schedule = self._get_arena_schedule()
-        return connect_schedule + arena_schedule
+        # arena_schedule = self._get_arena_schedule()
+        # if datetime.now() < datetime.fromisoformat('2025-01-12'):
+        #     prev_connect_url = self.D_TOUR_BASE_URL = '{}/d-tour_2024'.format(self.BASE_URL)
+        #     prev_connect_schedule = self._get_connect_schedule(prev_connect_url)
+        #     connect_schedule = prev_connect_schedule + connect_schedule
+        return connect_schedule# + arena_schedule
