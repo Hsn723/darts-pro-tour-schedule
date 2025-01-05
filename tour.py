@@ -162,8 +162,8 @@ class DTour(Tour):
 
     def _get_arena_start_date(self, raw_date: str) -> datetime:
         temporary_start_time = 10
-        arena_datetime_pat = '\d{4}/\d{1,2}/\d{1,2}（\d{1,2}:\d{1,2}）'
-        arena_date_pat = '\d{4}/\d{1,2}/\d{1,2}-'
+        arena_datetime_pat = r'\d{4}/\d{1,2}/\d{1,2}（\d{1,2}:\d{1,2}）'
+        arena_date_pat = r'\d{4}/\d{1,2}/\d{1,2}-'
         try:
             if re.match(arena_datetime_pat, raw_date):
                 return datetime.strptime(raw_date, '%Y/%m/%d（%H:%M）')
