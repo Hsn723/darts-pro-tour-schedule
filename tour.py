@@ -1,8 +1,9 @@
 import hashlib
+import itertools
 import os
 import re
 import urllib.request
-from bs4 import BeautifulSoup, ResultSet
+from bs4 import BeautifulSoup, ResultSet, Tag
 from datetime import datetime
 from icalendar import Calendar
 from typing import List, Tuple
@@ -130,7 +131,13 @@ class DTour(Tour):
     BASE_URL = 'https://www.da-topi.jp'
     D_TOUR_BASE_URL = '{}/d-tour_season4'.format(BASE_URL)
     D_TOUR_CONNECT_SCHED_URL = '{}/connect'.format(D_TOUR_BASE_URL)
-    D_TOUR_ARENA_SCHED_URL = '{}/arena'.format(D_TOUR_BASE_URL)
+    D_TOUR_ARENA_SCHED_BASE_URL = '{}/arena'.format(D_TOUR_BASE_URL)
+    D_TOUR_ARENA_REGIONS = [
+        ('kyushu', '九州・山口'),
+        ('kanto', '関東'),
+        ('kitakanto', '北関東'),
+        ('chubu', '中部')
+    ]
     D_TOUR_CAL_PRODID = '-//D-TOUR Unofficial Calendar//D-TOUR Unofficial Calendar 1.0//'
     D_TOUR_ICAL_FILE = 'calendars/d-tour.ics'
     def __init__(self):
@@ -139,10 +146,7 @@ class DTour(Tour):
     def _get_connect_start_date(self, raw_date: str) -> datetime:
         try:
             formatted_date = re.sub(r'\([^)]+\)', '', raw_date)
-            if re.match('\d{4}/\d{1,2}/\d{1,2}', formatted_date):
-                full_date = datetime.strptime(formatted_date, '%Y/%m/%d').replace(year=datetime.now().year, hour=10)
-            else:
-                full_date = datetime.strptime(formatted_date, '%m/%d').replace(year=datetime.now().year, hour=10)
+            full_date = datetime.strptime(formatted_date, '%Y/%m/%d').replace(hour=10)
             return full_date
         except (ValueError, TypeError):
             return None
@@ -157,10 +161,16 @@ class DTour(Tour):
             return None
 
     def _get_arena_start_date(self, raw_date: str) -> datetime:
+        temporary_start_time = 10
+        arena_datetime_pat = '\d{4}/\d{1,2}/\d{1,2}（\d{1,2}:\d{1,2}）'
+        arena_date_pat = '\d{4}/\d{1,2}/\d{1,2}-'
         try:
-            formatted_date = re.sub(r'\([^)]+\)', '-', raw_date)
-            full_date = datetime.strptime(formatted_date, '%m/%d-%H:%M').replace(year=datetime.now().year)
-            return full_date
+            if re.match(arena_datetime_pat, raw_date):
+                return datetime.strptime(raw_date, '%Y/%m/%d（%H:%M）')
+            elif re.match(arena_date_pat, raw_date):
+                return datetime.strptime(raw_date, '%Y/%m/%d-').replace(hour=temporary_start_time)
+            else:
+                return None
         except (ValueError, TypeError):
             return self._get_timeless_arena_start_date(raw_date)
 
@@ -172,6 +182,13 @@ class DTour(Tour):
         sched_rows = sched_table.find('tbody').find_all('tr')
         return sched_rows
 
+    def _get_dtour_arena_schedule(self, url: str) -> ResultSet:
+        with urllib.request.urlopen(url) as f:
+            raw_content = f.read()
+        parsed_content = BeautifulSoup(raw_content, 'html.parser')
+        sched_entries = parsed_content.find_all('div', class_='scheduleArena')
+        return sched_entries
+
     def _get_prelim_period(self, prelim_dates: str) -> Tuple[datetime, datetime]:
         raw_dates = prelim_dates.split('\n\xa0～\xa0')
         if len(raw_dates) != 2:
@@ -179,12 +196,18 @@ class DTour(Tour):
         full_dates = []
         for raw_date in raw_dates:
             formatted_date = re.sub(r'\([^)]+\)', ' ', raw_date)
-            if re.match('\d{4}/\d{1,2}/\d{1,2}', formatted_date):
-                full_date = datetime.strptime(formatted_date, '%Y/%m/%d %H:%M').replace(year=datetime.now().year)
-            else:
-                full_date = datetime.strptime(formatted_date, '%m/%d %H:%M').replace(year=datetime.now().year)
+            formatted_date = re.sub('24:00', '23:59', formatted_date)
+            full_date = datetime.strptime(formatted_date, '%Y/%m/%d %H:%M')
             full_dates.append(full_date)
         return full_dates[0], full_dates[1]
+
+    def _get_prelim_data(self, raw: Tag):
+        prelim_dates = raw.td.get_text().replace('予選会場', '').replace(' ', '').strip()
+        prelim_url = raw.a.get('href')
+        prelim_url = '予選会場: {}'.format(prelim_url) if prelim_url else ''
+        prelim_status = entry.find('a', title='予選状況')
+        prelim_status_url = prelim_status.get('href') if prelim_status else ''
+        prelim_info = '予選:\n{}\n{}\n予選状況:{}'.format(prelim_dates, prelim_url, prelim_status_url)
 
     def _get_connect_schedule(self, url: str=D_TOUR_CONNECT_SCHED_URL) -> List[TourEvent]:
         sched_rows = self._get_dtour_schedule(url)
@@ -215,33 +238,45 @@ class DTour(Tour):
                 events.append(DTourEvent(stage_prelim, prelim_start, 'CONNECT', '', prelim_info, prelim_end))
         return events
 
-    def _get_arena_schedule(self) -> List[TourEvent]:
-        sched_rows = self._get_dtour_schedule(self.D_TOUR_ARENA_SCHED_URL)
+    def _get_arena_schedule(self, url: str, region_name: str) -> List[TourEvent]:
+        sched_entries = self._get_dtour_arena_schedule(url)
         events = []
-        for row in sched_rows:
-            details = row('td')
-            stage = details[0].get_text().strip().replace(' ', '').replace('\n\n', '\n').replace('\n', ': ')
-            raw_date = details[1].get_text()
+        for entry in sched_entries:
+            stage = entry.find('h4').get_text()
+            details = entry.find('table', class_='schedule').tbody('tr')
+            location = details[0].td.get_text().strip().replace('\n\n', '\n')
+            raw_date = details[1].td.get_text().replace('\n', '').replace(' ', '')
             start_date = self._get_arena_start_date(raw_date)
-            details_url = details[0].a.get('href') if details[0].a else ''
-            details_url = '大会詳細: {}{}'.format(self.BASE_URL, details_url) if details_url else ''
-            prelim_dates = details[3].get_text().replace('予選会場', '').replace(' ', '').strip()
-            prelim_url = details[3].a.get('href')
-            prelim_url = '予選会場: {}'.format(prelim_url) if prelim_url else ''
-            prelim_info = '予選:\n{}\n{}'.format(prelim_dates, prelim_url)
-            events.append(DTourEvent(stage, start_date, 'ARENA', details_url, prelim_info))
-            prelim_period = self._get_prelim_period(prelim_dates)
-            if prelim_period is not None:
-                stage_prelim = '{} (予選)'.format(stage)
-                prelim_start, prelim_end = prelim_period
-                events.append(DTourEvent(stage_prelim, prelim_start, 'ARENA', '', prelim_info, prelim_end))
+            if start_date is None:
+                continue
+            prelim_index = len(details) - 2
+            has_prelim = details[prelim_index](string="調整中") is None
+            if has_prelim:
+                prelim_dates, prelim_info = self._get_prelim_data(details[prelim_index])
+            events.append(DTourEvent(
+                stage,
+                start_date,
+                'ARENA {}エリア'.format(region_name),
+                url,
+                prelim_info if has_prelim else '')
+            )
+            if has_prelim:
+                prelim_period = self._get_prelim_period(prelim_dates)
+                if prelim_period is not None:
+                    stage_prelim = '{} (予選)'.format(stage)
+                    prelim_start, prelim_end = prelim_period
+                    events.append(DTourEvent(
+                        stage_prelim,
+                        prelim_start,
+                        'ARENA {}エリア'.format(region_name),
+                        url,
+                        prelim_info,
+                        prelim_end)
+                    )
         return events
 
     def get_schedule(self) -> List[TourEvent]:
         connect_schedule = self._get_connect_schedule()
-        # arena_schedule = self._get_arena_schedule()
-        # if datetime.now() < datetime.fromisoformat('2025-01-12'):
-        #     prev_connect_url = self.D_TOUR_BASE_URL = '{}/d-tour_2024'.format(self.BASE_URL)
-        #     prev_connect_schedule = self._get_connect_schedule(prev_connect_url)
-        #     connect_schedule = prev_connect_schedule + connect_schedule
-        return connect_schedule# + arena_schedule
+        arena_schedules = [self._get_arena_schedule('{}/{}.html'.format(self.D_TOUR_ARENA_SCHED_BASE_URL, r), n) for r,n in self.D_TOUR_ARENA_REGIONS]
+        arena_schedule = list(itertools.chain.from_iterable(arena_schedules))
+        return connect_schedule + arena_schedule
