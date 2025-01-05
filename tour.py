@@ -47,21 +47,28 @@ class PerfectTour(Tour):
     def __init__(self):
         super().__init__(self.PERFECT_ICAL_FILE, self.PERFECT_CAL_PRODID)
 
-    def _get_start_dates(self, raw_dates: List[str]) -> List[datetime]:
+    def _get_start_dates(self, raw_dates: List[str], year: int) -> List[datetime]:
         start_dates = []
         for date in raw_dates:
             try:
                 formatted_date = re.sub(r'\(\w\)', '', date)
-                start_date = datetime.strptime(formatted_date, '%m月%d日').replace(year=datetime.now().year, hour=8)
+                start_date = datetime.strptime(formatted_date, '%m月%d日').replace(year=year, hour=8)
                 start_dates.append(start_date)
             except (ValueError, TypeError):
                 continue
         return start_dates
 
+    def _get_year(self, raw: Tag) -> int:
+        try:
+            return int(raw.span.get_text())
+        except (ValueError, TypeError):
+            return datetime.now().year
+
     def get_schedule(self) -> List[TourEvent]:
         with urllib.request.urlopen(self.PERFECT_SCHED_URL) as f:
             raw_content = f.read()
         parsed_content = BeautifulSoup(raw_content, 'lxml')
+        year = self._get_year(parsed_content.find('h3', class_='midashi1'))
         sched_table = parsed_content.find_all('table', id='list', limit=1)[0]
         sched_rows = sched_table.find_all('tr')
         events = []
@@ -74,7 +81,7 @@ class PerfectTour(Tour):
             point = details[3].string
             is_men = 'schedule_none' not in details[4].img.attrs['src']
             is_women = 'schedule_none' not in details[5].img.attrs['src']
-            start_dates = self._get_start_dates(raw_dates)
+            start_dates = self._get_start_dates(raw_dates, year)
             for start_date in start_dates:
                 events.append(PerfectEvent(stage, start_date, location, venue, point, is_men, is_women))
         return events
