@@ -73,6 +73,8 @@ class PerfectTour(Tour):
         sched_rows = sched_table.find_all('tr')
         events = []
         for row in sched_rows:
+            if '調整中' in row.get_text():
+                continue
             stage = row.th.string
             details = row('td')
             location = details[0].string
