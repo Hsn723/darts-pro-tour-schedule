@@ -149,6 +149,7 @@ class DTour(Tour):
     ]
     D_TOUR_CAL_PRODID = '-//D-TOUR Unofficial Calendar//D-TOUR Unofficial Calendar 1.0//'
     D_TOUR_ICAL_FILE = 'calendars/d-tour.ics'
+    DATE_TIME_PAT = r'\d{4}/\d{1,2}/\d{1,2}'
     def __init__(self):
         super().__init__(self.D_TOUR_ICAL_FILE, self.D_TOUR_CAL_PRODID)
 
@@ -187,16 +188,8 @@ class DTour(Tour):
         with urllib.request.urlopen(url) as f:
             raw_content = f.read()
         parsed_content = BeautifulSoup(raw_content, 'html.parser')
-        sched_table = parsed_content.find_all('table', class_='schedule', limit=1)[0]
-        sched_rows = sched_table.find('tbody').find_all('tr')
-        return sched_rows
-
-    def _get_dtour_arena_schedule(self, url: str) -> ResultSet:
-        with urllib.request.urlopen(url) as f:
-            raw_content = f.read()
-        parsed_content = BeautifulSoup(raw_content, 'html.parser')
-        sched_entries = parsed_content.find_all('div', class_='scheduleArena')
-        return sched_entries
+        sched_records = parsed_content.find_all('div', class_='scheduleBox')
+        return sched_records
 
     def _get_prelim_period(self, prelim_dates: str) -> Tuple[datetime, datetime]:
         raw_dates = prelim_dates.split('\n\xa0～\xa0')
@@ -210,78 +203,81 @@ class DTour(Tour):
             full_dates.append(full_date)
         return full_dates[0], full_dates[1]
 
-    def _get_prelim_data(self, raw: Tag):
+    def _get_prelim_data(self, entry: ResultSet, raw: Tag) -> Tuple[str, str]:
         prelim_dates = raw.td.get_text().replace('予選会場', '').replace(' ', '').strip()
         prelim_url = raw.a.get('href')
         prelim_url = '予選会場: {}'.format(prelim_url) if prelim_url else ''
         prelim_status = entry.find('a', title='予選状況')
         prelim_status_url = prelim_status.get('href') if prelim_status else ''
         prelim_info = '予選:\n{}\n{}\n予選状況:{}'.format(prelim_dates, prelim_url, prelim_status_url)
+        return prelim_dates, prelim_info
+
+    def _get_connect_events(self, record: ResultSet) -> List[DTourEvent]:
+        stage = record.h4.get_text()
+        details = record.table.find_all('tr')
+        events = []
+        for detail in details:
+            field_header = detail.th.get_text()
+            if '会場' in field_header:
+                details_url = detail.td.a.get('href')
+                details_url = '本戦会場: {}'.format(details_url) if details_url else ''
+            elif '大会日程' in field_header:
+                raw_date_match = re.search(self.DATE_TIME_PAT, detail.td.get_text())
+                if not raw_date_match:
+                    return None
+                start_date = self._get_connect_start_date(raw_date_match.group())
+                if not start_date:
+                    return None
+            elif '予選期間' in field_header:
+                prelim_dates, prelim_info = self._get_prelim_data(record, detail)
+        events.append(DTourEvent(stage, start_date, 'CONNECT', details_url, prelim_info))
+        prelim_period = self._get_prelim_period(prelim_dates)
+        if prelim_period:
+            stage_prelim = '{} (予選)'.format(stage)
+            prelim_start, prelim_end = prelim_period
+            events.append(DTourEvent(stage_prelim, prelim_start, 'CONNECT', '', prelim_info, prelim_end))
+        return events
 
     def _get_connect_schedule(self, url: str=D_TOUR_CONNECT_SCHED_URL) -> List[TourEvent]:
-        sched_rows = self._get_dtour_schedule(url)
+        sched_records = self._get_dtour_schedule(url)
         events = []
-        for row in sched_rows:
-            details = row('td')
-            if len(details) == 1:
-                break
-            stage = details[0].get_text().replace('本戦会場','').strip()
-            for raw_content in details[1].strings:
-                if raw_content.string is None:
-                    continue
-                raw_date = self._get_connect_start_date(raw_content.string.strip())
-                if raw_date is not None:
-                    start_date = raw_date
-                    break
-            details_url = details[0].a.get('href')
-            details_url = '本戦会場: {}'.format(details_url) if details_url else ''
-            prelim_dates = details[3].get_text().replace('予選会場', '').replace(' ', '').strip()
-            prelim_url = details[3].a.get('href')
-            prelim_url = '予選会場: {}'.format(prelim_url) if prelim_url else ''
-            prelim_info = '予選:{}\n{}'.format(prelim_dates, prelim_url)
-            events.append(DTourEvent(stage, start_date, 'CONNECT', details_url, prelim_info))
-            prelim_period = self._get_prelim_period(prelim_dates)
-            if prelim_period is not None:
-                stage_prelim = '{} (予選)'.format(stage)
-                prelim_start, prelim_end = prelim_period
-                events.append(DTourEvent(stage_prelim, prelim_start, 'CONNECT', '', prelim_info, prelim_end))
+        for record in sched_records:
+            stage_events = self._get_connect_events(record)
+            if stage_events:
+                events.extend(stage_events)
+        return events
+
+    def _get_arena_events(self, url: str, record: ResultSet, region_name: str) -> List[DTourEvent]:
+        stage = record.h4.get_text()
+        details = record.table.find_all('tr')
+        events = []
+        for detail in details:
+            field_header = detail.th.get_text()
+            if '会場' in field_header:
+                location = detail.td.get_text().strip().replace('\n\n', '\n')
+                description = '会場: {}'.format(location) if location else ''
+            elif '大会日程' in field_header:
+                raw_date = detail.td.get_text().replace('\n', '').replace(' ', '')
+                start_date = self._get_arena_start_date(raw_date)
+                if not start_date:
+                    return None
+            elif '予選期間' in field_header:
+                prelim_dates, prelim_info = self._get_prelim_data(record, detail)
+        events.append(DTourEvent(stage, start_date, 'ARENA {}エリア'.format(region_name), url, prelim_info))
+        prelim_period = self._get_prelim_period(prelim_dates)
+        if prelim_period:
+            stage_prelim = '{} (予選)'.format(stage)
+            prelim_start, prelim_end = prelim_period
+            events.append(DTourEvent(stage_prelim, prelim_start, 'ARENA {}エリア'.format(region_name), url, prelim_info, prelim_end))
         return events
 
     def _get_arena_schedule(self, url: str, region_name: str) -> List[TourEvent]:
-        sched_entries = self._get_dtour_arena_schedule(url)
+        sched_records = self._get_dtour_schedule(url)
         events = []
-        for entry in sched_entries:
-            stage = entry.find('h4').get_text()
-            details = entry.find('table', class_='schedule').tbody('tr')
-            location = details[0].td.get_text().strip().replace('\n\n', '\n')
-            raw_date = details[1].td.get_text().replace('\n', '').replace(' ', '')
-            start_date = self._get_arena_start_date(raw_date)
-            if start_date is None:
-                continue
-            prelim_index = len(details) - 2
-            has_prelim = details[prelim_index](string="調整中") is None
-            if has_prelim:
-                prelim_dates, prelim_info = self._get_prelim_data(details[prelim_index])
-            events.append(DTourEvent(
-                stage,
-                start_date,
-                'ARENA {}エリア'.format(region_name),
-                url,
-                prelim_info if has_prelim else '')
-            )
-            if has_prelim:
-                prelim_period = self._get_prelim_period(prelim_dates)
-                if prelim_period is not None:
-                    stage_prelim = '{} (予選)'.format(stage)
-                    prelim_start, prelim_end = prelim_period
-                    events.append(DTourEvent(
-                        stage_prelim,
-                        prelim_start,
-                        'ARENA {}エリア'.format(region_name),
-                        url,
-                        prelim_info,
-                        prelim_end)
-                    )
+        for record in sched_records:
+            stage_events = self._get_arena_events(url, record, region_name)
+            if stage_events:
+                events.extend(stage_events)
         return events
 
     def get_schedule(self) -> List[TourEvent]:
