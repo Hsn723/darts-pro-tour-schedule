@@ -44,11 +44,8 @@ DTSTART:20250320T100000
 DTEND:20250320T220000
 DTSTAMP:20250320T100000Z
 UID:20250320T100000@第３戦
-DESCRIPTION:本戦会場: https://aa2fcaaa.viewer.kintoneapp.com/public/0a
- 41cc5c0eb74665a19578120acaa229f91dae29d1972bfb2e4e4373a1a08de7\n予選:\n2
- 025/2/20(木)19:00\n ～ 2025/3/13(木)12:00\n予選会場: https://aa2f
- caaa.viewer.kintoneapp.com/public/8d95c5b3f9734cd51f00b8bc0c46be3f609a1ecc
- 6f7a94c921d7753dd7361538\n予選状況:../qualify/connect/03.html
+DESCRIPTION:\n予選:\n2025/2/20(木)19:00\n ～ 2025/3/13(木)12:00\n\n
+ 予選状況:../qualify/connect/03.html
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT 第３戦 (予選)
@@ -56,10 +53,8 @@ DTSTART:20250220T190000
 DTEND:20250313T120000
 DTSTAMP:20250220T190000Z
 UID:20250220T190000@第３戦 (予選)
-DESCRIPTION:\n予選:\n2025/2/20(木)19:00\n ～ 2025/3/13(木)12:00\n
- 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/8d95c5b3f9734c
- d51f00b8bc0c46be3f609a1ecc6f7a94c921d7753dd7361538\n予選状況:../qualif
- y/connect/03.html
+DESCRIPTION:\n予選:\n2025/2/20(木)19:00\n ～ 2025/3/13(木)12:00\n\n
+ 予選状況:../qualify/connect/03.html
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT 第４戦
