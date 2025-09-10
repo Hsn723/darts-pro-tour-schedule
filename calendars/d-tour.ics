@@ -289,12 +289,17 @@ DESCRIPTION:https://www.da-topi.jp/d-tour_season4/arena/kyushu.html\n予
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 九州・山口エリア 第８戦
-DTSTART:20251013T100000
-DTEND:20251013T220000
-DTSTAMP:20251013T100000Z
-UID:20251013T100000@第８戦
+DTSTART:20251013T092000
+DTEND:20251013T222000
+DTSTAMP:20251013T092000Z
+UID:20251013T092000@第８戦
 DESCRIPTION:https://www.da-topi.jp/d-tour_season4/arena/kyushu.html\n予
- 選:\n2025/9/18(木)19:00\n ～ 2025/10/3(金)24:00\n\n予選状況:None
+ 選:\n2025/9/18(木)19:00\n ～ 2025/10/3(金)24:00\n予選会場: https
+ ://aa2fcaaa.viewer.kintoneapp.com/public/1ee2e8865c2564eee1b9047e594c87f20
+ 41cc74125b4b0575ceb3963be9a0ae3\n予選状況:https://countup.fidodarts.co
+ m/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImU4YTUzODNjLThkNGUtMTF
+ mMC1iODY4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJlOGFkMWNlMS04ZDRlLTExZjAtYjg2O
+ C0wNmUzZGFhZTNjMGYifQ%3D%3D
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 九州・山口エリア 第８戦 (予選)
@@ -303,7 +308,12 @@ DTEND:20251003T235900
 DTSTAMP:20250918T190000Z
 UID:20250918T190000@第８戦 (予選)
 DESCRIPTION:https://www.da-topi.jp/d-tour_season4/arena/kyushu.html\n予
- 選:\n2025/9/18(木)19:00\n ～ 2025/10/3(金)24:00\n\n予選状況:None
+ 選:\n2025/9/18(木)19:00\n ～ 2025/10/3(金)24:00\n予選会場: https
+ ://aa2fcaaa.viewer.kintoneapp.com/public/1ee2e8865c2564eee1b9047e594c87f20
+ 41cc74125b4b0575ceb3963be9a0ae3\n予選状況:https://countup.fidodarts.co
+ m/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImU4YTUzODNjLThkNGUtMTF
+ mMC1iODY4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJlOGFkMWNlMS04ZDRlLTExZjAtYjg2O
+ C0wNmUzZGFhZTNjMGYifQ%3D%3D
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA 九州・山口エリア 最終戦
