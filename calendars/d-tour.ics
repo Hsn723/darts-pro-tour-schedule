@@ -80,11 +80,8 @@ DTSTART:20250923T100000
 DTEND:20250923T220000
 DTSTAMP:20250923T100000Z
 UID:20250923T100000@第５戦
-DESCRIPTION:本戦会場: https://aa2fcaaa.viewer.kintoneapp.com/public/0d
- 09f0adf4c3693527e518235f332145f94fad4b4532226611da096a7c85fb35\n予選:\n2
- 025/8/28(木)19:00\n ～ 2025/9/16(火)12:00\n予選会場: https://aa2f
- caaa.viewer.kintoneapp.com/public/8d95c5b3f9734cd51f00b8bc0c46be3f609a1ecc
- 6f7a94c921d7753dd7361538\n予選状況:../qualify/connect/05.html
+DESCRIPTION:\n予選:\n2025/8/28(木)19:00\n ～ 2025/9/16(火)12:00\n\n
+ 予選状況:../qualify/connect/05.html
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT 第５戦 (予選)
@@ -92,10 +89,8 @@ DTSTART:20250828T190000
 DTEND:20250916T120000
 DTSTAMP:20250828T190000Z
 UID:20250828T190000@第５戦 (予選)
-DESCRIPTION:\n予選:\n2025/8/28(木)19:00\n ～ 2025/9/16(火)12:00\n
- 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/8d95c5b3f9734c
- d51f00b8bc0c46be3f609a1ecc6f7a94c921d7753dd7361538\n予選状況:../qualif
- y/connect/05.html
+DESCRIPTION:\n予選:\n2025/8/28(木)19:00\n ～ 2025/9/16(火)12:00\n\n
+ 予選状況:../qualify/connect/05.html
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT 最終戦
