@@ -137,52 +137,20 @@ class JapanTour(Tour):
 
 
 class DTour(Tour):
-    BASE_URL = 'https://www.da-topi.jp'
-    D_TOUR_BASE_URL = '{}/d-tour_season4'.format(BASE_URL)
-    D_TOUR_CONNECT_SCHED_URL = '{}/connect'.format(D_TOUR_BASE_URL)
-    D_TOUR_ARENA_SCHED_BASE_URL = '{}/arena'.format(D_TOUR_BASE_URL)
-    D_TOUR_ARENA_REGIONS = [
-        ('kyushu', '九州・山口'),
-        ('kanto', '関東'),
-        ('kitakanto', '北関東'),
-        ('chubu', '中部')
-    ]
+    D_TOUR_UNIFIED_URL = 'https://d-tour.jp/schedule'
     D_TOUR_CAL_PRODID = '-//D-TOUR Unofficial Calendar//D-TOUR Unofficial Calendar 1.0//'
     D_TOUR_ICAL_FILE = 'calendars/d-tour.ics'
     DATE_TIME_PAT = r'\d{4}/\d{1,2}/\d{1,2}'
     def __init__(self):
         super().__init__(self.D_TOUR_ICAL_FILE, self.D_TOUR_CAL_PRODID)
 
-    def _get_connect_start_date(self, raw_date: str) -> datetime:
+    def _get_start_date(self, raw_date: str) -> datetime:
         try:
             formatted_date = re.sub(r'\([^)]+\)', '', raw_date)
-            full_date = datetime.strptime(formatted_date, '%Y/%m/%d').replace(hour=10)
+            full_date = datetime.strptime(formatted_date, '%Y/%m/%d')
             return full_date
         except (ValueError, TypeError):
             return None
-
-    def _get_timeless_arena_start_date(self, raw_date: str) -> datetime:
-        temporary_start_time = 10
-        try:
-            formatted_date = re.sub(r'\([^)]+\)', '', raw_date)
-            full_date = datetime.strptime(formatted_date, '%m/%d-').replace(year=datetime.now().year, hour=temporary_start_time)
-            return full_date
-        except (ValueError, TypeError):
-            return None
-
-    def _get_arena_start_date(self, raw_date: str) -> datetime:
-        temporary_start_time = 10
-        arena_datetime_pat = r'\d{4}/\d{1,2}/\d{1,2}（\d{1,2}:\d{1,2}）'
-        arena_date_pat = r'\d{4}/\d{1,2}/\d{1,2}-'
-        try:
-            if re.match(arena_datetime_pat, raw_date):
-                return datetime.strptime(raw_date, '%Y/%m/%d（%H:%M）')
-            elif re.match(arena_date_pat, raw_date):
-                return datetime.strptime(raw_date, '%Y/%m/%d-').replace(hour=temporary_start_time)
-            else:
-                return None
-        except (ValueError, TypeError):
-            return self._get_timeless_arena_start_date(raw_date)
 
     def _get_dtour_schedule(self, url: str) -> ResultSet:
         with urllib.request.urlopen(url) as f:
@@ -199,6 +167,7 @@ class DTour(Tour):
         for raw_date in raw_dates:
             formatted_date = re.sub(r'\([^)]+\)', ' ', raw_date)
             formatted_date = re.sub('24:00', '23:59', formatted_date)
+            formatted_date = re.sub(r'（[^）]+）', ' ', formatted_date)
             full_date = datetime.strptime(formatted_date, '%Y/%m/%d %H:%M')
             full_dates.append(full_date)
         return full_dates[0], full_dates[1]
@@ -212,76 +181,44 @@ class DTour(Tour):
         prelim_info = '予選:\n{}\n{}\n予選状況:{}'.format(prelim_dates, prelim_url, prelim_status_url)
         return prelim_dates, prelim_info
 
-    def _get_connect_events(self, record: ResultSet) -> List[DTourEvent]:
-        stage = record.h4.get_text()
+    def _get_unified_events(self, record: ResultSet) -> List[DTourEvent]:
+        stage = record.find('p', class_='roundName').get_text()
         details = record.table.find_all('tr')
         events = []
+        location = ''
         for detail in details:
             field_header = detail.th.get_text()
             if '会場' in field_header:
-                details_url = detail.td.a.get('href')
-                details_url = '本戦会場: {}'.format(details_url) if details_url else ''
+                details_url = detail.td.a.get('href') if detail.td.a else ''
+                details_url = '会場: {}'.format(details_url) if details_url else ''
+                if not '各エリアの本戦会場' in detail.td.get_text():
+                    location = detail.td.get_text().strip().replace('\n\n', '\n')
             elif '大会日程' in field_header:
                 raw_date_match = re.search(self.DATE_TIME_PAT, detail.td.get_text())
                 if not raw_date_match:
                     return None
-                start_date = self._get_connect_start_date(raw_date_match.group())
+                start_date = self._get_start_date(raw_date_match.group())
                 if not start_date:
                     return None
             elif '予選期間' in field_header:
                 prelim_dates, prelim_info = self._get_prelim_data(record, detail)
-        events.append(DTourEvent(stage, start_date, 'CONNECT', details_url, prelim_info))
+                prelim_location = detail.td.a.get('href')
+        events.append(DTourEvent(stage, start_date, location, details_url, prelim_info))
         prelim_period = self._get_prelim_period(prelim_dates)
         if prelim_period:
             stage_prelim = '{} (予選)'.format(stage)
             prelim_start, prelim_end = prelim_period
-            events.append(DTourEvent(stage_prelim, prelim_start, 'CONNECT', '', prelim_info, prelim_end))
+            events.append(DTourEvent(stage_prelim, prelim_start, prelim_location, details_url, prelim_info, prelim_end))
         return events
 
-    def _get_connect_schedule(self, url: str=D_TOUR_CONNECT_SCHED_URL) -> List[TourEvent]:
-        sched_records = self._get_dtour_schedule(url)
+    def _get_unified_schedule(self) -> List[TourEvent]:
+        sched_records = self._get_dtour_schedule(self.D_TOUR_UNIFIED_URL)
         events = []
         for record in sched_records:
-            stage_events = self._get_connect_events(record)
-            if stage_events:
-                events.extend(stage_events)
-        return events
-
-    def _get_arena_events(self, url: str, record: ResultSet, region_name: str) -> List[DTourEvent]:
-        stage = record.h4.get_text()
-        details = record.table.find_all('tr')
-        events = []
-        for detail in details:
-            field_header = detail.th.get_text()
-            if '会場' in field_header:
-                location = detail.td.get_text().strip().replace('\n\n', '\n')
-                description = '会場: {}'.format(location) if location else ''
-            elif '大会日程' in field_header:
-                raw_date = detail.td.get_text().replace('\n', '').replace(' ', '')
-                start_date = self._get_arena_start_date(raw_date)
-                if not start_date:
-                    return None
-            elif '予選期間' in field_header:
-                prelim_dates, prelim_info = self._get_prelim_data(record, detail)
-        events.append(DTourEvent(stage, start_date, 'ARENA {}エリア'.format(region_name), url, prelim_info))
-        prelim_period = self._get_prelim_period(prelim_dates)
-        if prelim_period:
-            stage_prelim = '{} (予選)'.format(stage)
-            prelim_start, prelim_end = prelim_period
-            events.append(DTourEvent(stage_prelim, prelim_start, 'ARENA {}エリア'.format(region_name), url, prelim_info, prelim_end))
-        return events
-
-    def _get_arena_schedule(self, url: str, region_name: str) -> List[TourEvent]:
-        sched_records = self._get_dtour_schedule(url)
-        events = []
-        for record in sched_records:
-            stage_events = self._get_arena_events(url, record, region_name)
+            stage_events = self._get_unified_events(record)
             if stage_events:
                 events.extend(stage_events)
         return events
 
     def get_schedule(self) -> List[TourEvent]:
-        connect_schedule = self._get_connect_schedule()
-        arena_schedules = [self._get_arena_schedule('{}/{}.html'.format(self.D_TOUR_ARENA_SCHED_BASE_URL, r), n) for r,n in self.D_TOUR_ARENA_REGIONS]
-        arena_schedule = list(itertools.chain.from_iterable(arena_schedules))
-        return connect_schedule + arena_schedule
+        return self._get_unified_schedule()
