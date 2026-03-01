@@ -122,8 +122,8 @@ class JapanEvent(TourEvent):
 
 class DTourEvent(TourEvent):
     END_HOUR = 22
-    def __init__(self, stage: str, start_date: datetime, division: str, details_url: str, prelim_info: str, end_date: datetime = None):
-        self._division = division
+    def __init__(self, stage: str, start_date: datetime, venue: str, details_url: str, prelim_info: str, end_date: datetime = None):
+        self._venue = venue
         self._details_url = details_url
         self._prelim_info = prelim_info
         self._end_date = end_date
@@ -136,7 +136,10 @@ class DTourEvent(TourEvent):
         return self.start_date.replace(hour=self._end_hour)
 
     def get_summary(self) -> str:
-        return 'DTOUR {} {}'.format(self._division, self.stage)
+        return 'DTOUR {}'.format(self.stage)
+
+    def get_location(self) -> vText:
+        return vText(self._venue)
 
     def get_description(self) -> str:
         return '{}\n{}'.format(self._details_url, self._prelim_info)
