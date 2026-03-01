@@ -2,4 +2,500 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//D-TOUR Unofficial Calendar//D-TOUR Unofficial Calendar 1.0//
 DTSTART:20260101T000000
+BEGIN:VEVENT
+SUMMARY:DTOUR CONNECT開幕戦
+DTSTART:20260223T000000
+DTEND:20260223T220000
+DTSTAMP:20260223T000000Z
+UID:20260223T000000@CONNECT開幕戦
+DESCRIPTION:\n予選:\n2026/1/29（木）19:00\n ～ 2026/2/16（月）1
+ 2:00\n\n予選状況:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR CONNECT開幕戦 (予選)
+DTSTART:20260129T190000
+DTEND:20260216T120000
+DTSTAMP:20260129T190000Z
+UID:20260129T190000@CONNECT開幕戦 (予選)
+DESCRIPTION:\n予選:\n2026/1/29（木）19:00\n ～ 2026/2/16（月）1
+ 2:00\n\n予選状況:None
+LOCATION:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR CONNECT第２戦
+DTSTART:20260320T000000
+DTEND:20260320T220000
+DTSTAMP:20260320T000000Z
+UID:20260320T000000@CONNECT第２戦
+DESCRIPTION:会場: https://aa2fcaaa.viewer.kintoneapp.com/public/010ab871
+ a8ce7295b423d81218652db0f15eb10b1c9c25f388d18310e2a71d4c\n予選:\n2026/2/
+ 19（木）19:00\n ～ 2026/3/13（金）12:00\n予選会場: https://aa
+ 2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6fdde510321b5c13ba4b03469e24e5a
+ 80bc95fa0784ef2a36ab6380f0\n予選状況:https://countup.fidodarts.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR CONNECT第２戦 (予選)
+DTSTART:20260219T190000
+DTEND:20260313T120000
+DTSTAMP:20260219T190000Z
+UID:20260219T190000@CONNECT第２戦 (予選)
+DESCRIPTION:会場: https://aa2fcaaa.viewer.kintoneapp.com/public/010ab871
+ a8ce7295b423d81218652db0f15eb10b1c9c25f388d18310e2a71d4c\n予選:\n2026/2/
+ 19（木）19:00\n ～ 2026/3/13（金）12:00\n予選会場: https://aa
+ 2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6fdde510321b5c13ba4b03469e24e5a
+ 80bc95fa0784ef2a36ab6380f0\n予選状況:https://countup.fidodarts.com/
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6fdde510321b
+ 5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア開幕戦
+DTSTART:20260201T000000
+DTEND:20260201T220000
+DTSTAMP:20260201T000000Z
+UID:20260201T000000@ARENA九州・山口エリア開幕戦
+DESCRIPTION:会場: https://da-topi.jp/info/phoenixcup_kurume/\n予選:\n2
+ 026/1/8(木)19:00\n ～ 2026/1/23(金)24:00\n\n予選状況:https://coun
+ tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImZlOTE
+ xOTcwLWVhMDQtMTFmMC04YWM1LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJmZTk1ZmFlMC1lY
+ TA0LTExZjAtOGFjNS0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:地場産くるめ\n                                             
+                        福岡県久留米市東合川５丁目８−５\n 
+                                                                \n[同時
+ 開催]PHOENIX CUP 久留米
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア開幕戦 (予選)
+DTSTART:20260108T190000
+DTEND:20260123T235900
+DTSTAMP:20260108T190000Z
+UID:20260108T190000@ARENA九州・山口エリア開幕戦 (予選)
+DESCRIPTION:会場: https://da-topi.jp/info/phoenixcup_kurume/\n予選:\n2
+ 026/1/8(木)19:00\n ～ 2026/1/23(金)24:00\n\n予選状況:https://coun
+ tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImZlOTE
+ xOTcwLWVhMDQtMTFmMC04YWM1LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJmZTk1ZmFlMC1lY
+ TA0LTExZjAtOGFjNS0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア第２戦
+DTSTART:20260329T000000
+DTEND:20260329T220000
+DTSTAMP:20260329T000000Z
+UID:20260329T000000@ARENA九州・山口エリア第２戦
+DESCRIPTION:\n予選:\n2026/2/26(木)19:00\n ～ 2026/3/13(金)24:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e8
+ 2b2c053d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjM3
+ NjgxMzNlLTExNzUtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiIzNzZiYTY2Ni
+ 0xMTc1LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:グランメッセ熊本\n                                       
+                              熊本県上益城郡益城町福富１０１
+ ０\n                                                                \n\n 
+                                                                    [同時
+ 開催]PHOENIX CUP 熊本
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア第２戦 (予選)
+DTSTART:20260226T190000
+DTEND:20260313T235900
+DTSTAMP:20260226T190000Z
+UID:20260226T190000@ARENA九州・山口エリア第２戦 (予選)
+DESCRIPTION:\n予選:\n2026/2/26(木)19:00\n ～ 2026/3/13(金)24:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e8
+ 2b2c053d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjM3
+ NjgxMzNlLTExNzUtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiIzNzZiYTY2Ni
+ 0xMTc1LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2c0
+ 53d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア第３戦
+DTSTART:20260607T000000
+DTEND:20260607T220000
+DTSTAMP:20260607T000000Z
+UID:20260607T000000@ARENA九州・山口エリア第３戦
+DESCRIPTION:\n予選:\n2026/5/7(木)19:00\n ～ 2026/5/22(金)24:00\n\n
+ 予選状況:None
+LOCATION:海峡メッセ下関\n                                          
+                           山口県下関市豊前田町３丁目３−１
+ \n                                                                \n\n    
+                                                                 [同時開
+ 催]PHOENIX CUP 山口
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア第３戦 (予選)
+DTSTART:20260507T190000
+DTEND:20260522T235900
+DTSTAMP:20260507T190000Z
+UID:20260507T190000@ARENA九州・山口エリア第３戦 (予選)
+DESCRIPTION:\n予選:\n2026/5/7(木)19:00\n ～ 2026/5/22(金)24:00\n\n
+ 予選状況:None
+LOCATION:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア第４戦
+DTSTART:20260705T000000
+DTEND:20260705T220000
+DTSTAMP:20260705T000000Z
+UID:20260705T000000@ARENA九州・山口エリア第４戦
+DESCRIPTION:\n予選:\n2026/6/4(木)19:00\n ～ 2026/6/19(金)24:00\n\n
+ 予選状況:None
+LOCATION:地場産くるめ\n                                             
+                        福岡県久留米市東合川５丁目８−５\n 
+                                                                \n\n       
+                                                              [同時開催
+ ]PHOENIX CUP 久留米
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア第４戦 (予選)
+DTSTART:20260604T190000
+DTEND:20260619T235900
+DTSTAMP:20260604T190000Z
+UID:20260604T190000@ARENA九州・山口エリア第４戦 (予選)
+DESCRIPTION:\n予選:\n2026/6/4(木)19:00\n ～ 2026/6/19(金)24:00\n\n
+ 予選状況:None
+LOCATION:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア第５戦
+DTSTART:20260802T000000
+DTEND:20260802T220000
+DTSTAMP:20260802T000000Z
+UID:20260802T000000@ARENA九州・山口エリア第５戦
+DESCRIPTION:\n予選:\n2026/7/2(木)19:00\n ～ 2026/7/17(金)24:00\n\n
+ 予選状況:None
+LOCATION:熊本市流通情報会館\n                                    
+                                 熊本県熊本市南区流通団地１−
+ ２４\n                                                                \n
+ \n                                                                    [同
+ 時開催]PHOENIX CUP 熊本
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア第５戦 (予選)
+DTSTART:20260702T190000
+DTEND:20260717T235900
+DTSTAMP:20260702T190000Z
+UID:20260702T190000@ARENA九州・山口エリア第５戦 (予選)
+DESCRIPTION:\n予選:\n2026/7/2(木)19:00\n ～ 2026/7/17(金)24:00\n\n
+ 予選状況:None
+LOCATION:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア最終戦
+DTSTART:20260913T000000
+DTEND:20260913T220000
+DTSTAMP:20260913T000000Z
+UID:20260913T000000@ARENA九州・山口エリア最終戦
+DESCRIPTION:\n予選:\n2026/8/13(木)19:00\n ～ 2026/8/28(金)24:00\n\n
+ 予選状況:None
+LOCATION:炎の博記念堂\n                                             
+                        佐賀県西松浦郡有田町黒川甲１７８８
+ \n                                                                \n\n    
+                                                                 [同時開
+ 催]PHOENIX CUP 西九州
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA九州・山口エリア最終戦 (予選)
+DTSTART:20260813T190000
+DTEND:20260828T235900
+DTSTAMP:20260813T190000Z
+UID:20260813T190000@ARENA九州・山口エリア最終戦 (予選)
+DESCRIPTION:\n予選:\n2026/8/13(木)19:00\n ～ 2026/8/28(金)24:00\n\n
+ 予選状況:None
+LOCATION:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA関東エリア開幕戦
+DTSTART:20260322T000000
+DTEND:20260322T220000
+DTSTAMP:20260322T000000Z
+UID:20260322T000000@ARENA関東エリア開幕戦
+DESCRIPTION:\n予選:\n2026/2/26(木)19:00\n ～ 2026/3/16(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3
+ f689647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImY4
+ YzM0ZDAyLTEyMTYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJmOGM3NDdlYS
+ 0xMjE2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:Darts Shop TiTO 秋葉原\n                                      
+                               東京都千代田区神田岩本町1岩本
+ 町ビル2F\n                                                             
+        TEL:03-6206-0807
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA関東エリア開幕戦 (予選)
+DTSTART:20260226T190000
+DTEND:20260316T120000
+DTSTAMP:20260226T190000Z
+UID:20260226T190000@ARENA関東エリア開幕戦 (予選)
+DESCRIPTION:\n予選:\n2026/2/26(木)19:00\n ～ 2026/3/16(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3
+ f689647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImY4
+ YzM0ZDAyLTEyMTYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJmOGM3NDdlYS
+ 0xMjE2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f6896
+ 47d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA北関東エリア開幕戦
+DTSTART:20260322T000000
+DTEND:20260322T220000
+DTSTAMP:20260322T000000Z
+UID:20260322T000000@ARENA北関東エリア開幕戦
+DESCRIPTION:\n予選:\n2026/2/26(木)19:00\n ～ 2026/3/16(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09
+ d18a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjNi
+ NTk1OGRkLTEyMTctMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiIzYjVkM2E2Yy
+ 0xMjE3LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:Darts Dining ensembull\n                                         
+                            群馬県高崎市鞘町70-2モール702-1F\n  
+                                                                   TEL:02-7
+ 386-4333
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA北関東エリア開幕戦 (予選)
+DTSTART:20260226T190000
+DTEND:20260316T120000
+DTSTAMP:20260226T190000Z
+UID:20260226T190000@ARENA北関東エリア開幕戦 (予選)
+DESCRIPTION:\n予選:\n2026/2/26(木)19:00\n ～ 2026/3/16(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09
+ d18a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjNi
+ NTk1OGRkLTEyMTctMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiIzYjVkM2E2Yy
+ 0xMjE3LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18a5
+ 82c48858619accef00e254306aa8cd5a653a109ab7708
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA中部エリア開幕戦
+DTSTART:20260322T000000
+DTEND:20260322T220000
+DTSTAMP:20260322T000000Z
+UID:20260322T000000@ARENA中部エリア開幕戦
+DESCRIPTION:\n予選:\n2026/2/26(木)19:00\n ～ 2026/3/16(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336
+ c399fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjYz
+ YWJkOTFiLTEyMTctMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiI2M2IwMjcxNi
+ 0xMjE3LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:[Group1]\nDarts & Sports Tink\n                                  
+                                   愛知県名古屋市中区新栄1丁目
+ 12-21ロイヤル瓦町ビル2F\n                                         
+                            TEL:052-253-6973\n                             
+                                        [Group2]\nONE PIECE 黒川店\n    
+                                                                 愛知県
+ 名古屋市北区黒川本通4-29-1\n                                    
+                                 TEL:052-912-6422\nGroupの詳細はこち
+ ら
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR ARENA中部エリア開幕戦 (予選)
+DTSTART:20260226T190000
+DTEND:20260316T120000
+DTSTAMP:20260226T190000Z
+UID:20260226T190000@ARENA中部エリア開幕戦 (予選)
+DESCRIPTION:\n予選:\n2026/2/26(木)19:00\n ～ 2026/3/16(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336
+ c399fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjYz
+ YWJkOTFiLTEyMTctMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiI2M2IwMjcxNi
+ 0xMjE3LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c399f
+ bfd087b817cb2b3c3c883c04267228875901a3708acd8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN CONNECT開幕戦
+DTSTART:20260320T000000
+DTEND:20260320T220000
+DTSTAMP:20260320T000000Z
+UID:20260320T000000@WOMAN CONNECT開幕戦
+DESCRIPTION:会場: https://aa2fcaaa.viewer.kintoneapp.com/public/2dfd2dc3
+ df50114d432a7d969ff6e6d0a66e710c7937ccb93fffb76ce129b425\n予選:\n2026/2/
+ 19(木)19:00\n ～ 2026/3/13(金)12:00\n予選会場: https://aa2fcaaa.v
+ iewer.kintoneapp.com/public/7241be181ac0588389118c0921f03a7c052bc5024f1b9c
+ 532b5dd150bf98d429\n予選状況:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN CONNECT開幕戦 (予選)
+DTSTART:20260219T190000
+DTEND:20260313T120000
+DTSTAMP:20260219T190000Z
+UID:20260219T190000@WOMAN CONNECT開幕戦 (予選)
+DESCRIPTION:会場: https://aa2fcaaa.viewer.kintoneapp.com/public/2dfd2dc3
+ df50114d432a7d969ff6e6d0a66e710c7937ccb93fffb76ce129b425\n予選:\n2026/2/
+ 19(木)19:00\n ～ 2026/3/13(金)12:00\n予選会場: https://aa2fcaaa.v
+ iewer.kintoneapp.com/public/7241be181ac0588389118c0921f03a7c052bc5024f1b9c
+ 532b5dd150bf98d429\n予選状況:None
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac05883891
+ 18c0921f03a7c052bc5024f1b9c532b5dd150bf98d429
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア開幕戦
+DTSTART:20251013T000000
+DTEND:20251013T220000
+DTSTAMP:20251013T000000Z
+UID:20251013T000000@WOMAN九州・山口エリア開幕戦
+DESCRIPTION:\n予選:\n2025/9/18(木)19:00\n ～ 2025/10/3(金)24:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6IjE0YjUzNTQzLTkyZjUtMTFmMC1iODY4LTA2ZTNkYWFlM2MwZiIsImdy
+ b3VwSWQiOiIxNGJhYTkxYi05MmY1LTExZjAtYjg2OC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:グランメッセ熊本\n                                       
+                              熊本県上益城郡益城町福富１０１
+ ０\n                                                                \n\n 
+                                                                    [同時
+ 開催]PHOENIX CUP 熊本
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア開幕戦 (予選)
+DTSTART:20250918T190000
+DTEND:20251003T235900
+DTSTAMP:20250918T190000Z
+UID:20250918T190000@WOMAN九州・山口エリア開幕戦 (予選)
+DESCRIPTION:\n予選:\n2025/9/18(木)19:00\n ～ 2025/10/3(金)24:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6IjE0YjUzNTQzLTkyZjUtMTFmMC1iODY4LTA2ZTNkYWFlM2MwZiIsImdy
+ b3VwSWQiOiIxNGJhYTkxYi05MmY1LTExZjAtYjg2OC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア第２戦
+DTSTART:20251109T000000
+DTEND:20251109T220000
+DTSTAMP:20251109T000000Z
+UID:20251109T000000@WOMAN九州・山口エリア第２戦
+DESCRIPTION:\n予選:\n2025/10/16(木)19:00\n ～ 2025/10/31(金)24:00\n
+ \n予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=
+ eyJxdWFsaWZpZXJJZCI6ImQ0YmIyMjc3LWE4ZWUtMTFmMC1iODY4LTA2ZTNkYWFlM2MwZiIsIm
+ dyb3VwSWQiOiJkNGMxMDdjYy1hOGVlLTExZjAtYjg2OC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:西日本総合展示場 本館 中展示場\n                   
+                                                  福岡県北九州市小
+ 倉北区浅野３丁目７−１\n                                       
+                          \n\n                                             
+                        [同時開催]PHOENIX CUP 北九州
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア第２戦 (予選)
+DTSTART:20251016T190000
+DTEND:20251031T235900
+DTSTAMP:20251016T190000Z
+UID:20251016T190000@WOMAN九州・山口エリア第２戦 (予選)
+DESCRIPTION:\n予選:\n2025/10/16(木)19:00\n ～ 2025/10/31(金)24:00\n
+ \n予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=
+ eyJxdWFsaWZpZXJJZCI6ImQ0YmIyMjc3LWE4ZWUtMTFmMC1iODY4LTA2ZTNkYWFlM2MwZiIsIm
+ dyb3VwSWQiOiJkNGMxMDdjYy1hOGVlLTExZjAtYjg2OC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア第３戦
+DTSTART:20260201T000000
+DTEND:20260201T220000
+DTSTAMP:20260201T000000Z
+UID:20260201T000000@WOMAN九州・山口エリア第３戦
+DESCRIPTION:会場: https://da-topi.jp/info/phoenixcup_kurume/\n予選:\n2
+ 026/1/8(木)19:00\n ～ 2026/1/23(金)24:00\n\n予選状況:https://coun
+ tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjdiODI
+ 2YjY1LWVhMDUtMTFmMC04YWM1LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiI3Yjg3NDU3Mi1lY
+ TA1LTExZjAtOGFjNS0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:地場産くるめ\n                                             
+                        福岡県久留米市東合川５丁目８−５\n 
+                                                                \n[同時
+ 開催]PHOENIX CUP 久留米
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア第３戦 (予選)
+DTSTART:20260108T190000
+DTEND:20260123T235900
+DTSTAMP:20260108T190000Z
+UID:20260108T190000@WOMAN九州・山口エリア第３戦 (予選)
+DESCRIPTION:会場: https://da-topi.jp/info/phoenixcup_kurume/\n予選:\n2
+ 026/1/8(木)19:00\n ～ 2026/1/23(金)24:00\n\n予選状況:https://coun
+ tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjdiODI
+ 2YjY1LWVhMDUtMTFmMC04YWM1LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiI3Yjg3NDU3Mi1lY
+ TA1LTExZjAtOGFjNS0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア第４戦
+DTSTART:20260329T000000
+DTEND:20260329T220000
+DTSTAMP:20260329T000000Z
+UID:20260329T000000@WOMAN九州・山口エリア第４戦
+DESCRIPTION:\n予選:\n2026/2/26(木)19:00\n ～ 2026/3/13(金)24:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/088c0c742d2fc8
+ f687aab815fa8509f05c3921099805929120b164718f859569\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImVh
+ MTMzNjU0LTExNzYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJlYTE2ZGQwNi
+ 0xMTc2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:グランメッセ熊本\n                                       
+                              熊本県上益城郡益城町福富１０１
+ ０\n                                                                \n\n 
+                                                                    [同時
+ 開催]PHOENIX CUP 熊本
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア第４戦 (予選)
+DTSTART:20260226T190000
+DTEND:20260313T235900
+DTSTAMP:20260226T190000Z
+UID:20260226T190000@WOMAN九州・山口エリア第４戦 (予選)
+DESCRIPTION:\n予選:\n2026/2/26(木)19:00\n ～ 2026/3/13(金)24:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/088c0c742d2fc8
+ f687aab815fa8509f05c3921099805929120b164718f859569\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImVh
+ MTMzNjU0LTExNzYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJlYTE2ZGQwNi
+ 0xMTc2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/088c0c742d2fc8f687a
+ ab815fa8509f05c3921099805929120b164718f859569
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア第５戦
+DTSTART:20260607T000000
+DTEND:20260607T220000
+DTSTAMP:20260607T000000Z
+UID:20260607T000000@WOMAN九州・山口エリア第５戦
+DESCRIPTION:\n予選:\n2026/5/7(木)19:00\n ～ 2026/5/22(金)24:00\n\n
+ 予選状況:None
+LOCATION:海峡メッセ下関\n                                          
+                           山口県下関市豊前田町３丁目３−１
+ \n                                                                \n\n    
+                                                                 [同時開
+ 催]PHOENIX CUP 山口
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア第５戦 (予選)
+DTSTART:20260507T190000
+DTEND:20260522T235900
+DTSTAMP:20260507T190000Z
+UID:20260507T190000@WOMAN九州・山口エリア第５戦 (予選)
+DESCRIPTION:\n予選:\n2026/5/7(木)19:00\n ～ 2026/5/22(金)24:00\n\n
+ 予選状況:None
+LOCATION:None
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア最終戦
+DTSTART:20260802T000000
+DTEND:20260802T220000
+DTSTAMP:20260802T000000Z
+UID:20260802T000000@WOMAN九州・山口エリア最終戦
+DESCRIPTION:\n予選:\n2026/7/2(木)19:00\n ～ 2026/7/17(金)24:00\n\n
+ 予選状況:None
+LOCATION:熊本市流通情報会館\n                                    
+                                 熊本県熊本市南区流通団地１−
+ ２４\n                                                                \n
+ \n                                                                    [同
+ 時開催]PHOENIX CUP 熊本
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DTOUR WOMAN九州・山口エリア最終戦 (予選)
+DTSTART:20260702T190000
+DTEND:20260717T235900
+DTSTAMP:20260702T190000Z
+UID:20260702T190000@WOMAN九州・山口エリア最終戦 (予選)
+DESCRIPTION:\n予選:\n2026/7/2(木)19:00\n ～ 2026/7/17(金)24:00\n\n
+ 予選状況:None
+LOCATION:None
+END:VEVENT
 END:VCALENDAR
