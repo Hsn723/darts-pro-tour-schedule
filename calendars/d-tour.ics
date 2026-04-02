@@ -301,8 +301,9 @@ DTSTART:20260426T000000
 DTEND:20260426T220000
 DTSTAMP:20260426T000000Z
 UID:20260426T000000@ARENA関東エリア第2戦
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f68
+ 9647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:None
 LOCATION:Darts Bar Deer\n                                                 
                     東京都国立市中1-10-8-2F東\n                    
                                                  TEL:042-842-0688
@@ -313,9 +314,11 @@ DTSTART:20260402T190000
 DTEND:20260420T120000
 DTSTAMP:20260402T190000Z
 UID:20260402T190000@ARENA関東エリア第2戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f68
+ 9647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:None
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f6896
+ 47d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関東エリア第3戦
@@ -372,8 +375,9 @@ DTSTART:20260426T000000
 DTEND:20260426T220000
 DTSTAMP:20260426T000000Z
 UID:20260426T000000@ARENA北関東エリア第2戦
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18
+ a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:None
 LOCATION:meat dinning TABUKIYA\n                                          
                            館林市大手町1-12\n                        
                                              TEL:0276-55-8294
@@ -384,9 +388,11 @@ DTSTART:20260402T190000
 DTEND:20260420T120000
 DTSTAMP:20260402T190000Z
 UID:20260402T190000@ARENA北関東エリア第2戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18
+ a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:None
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18a5
+ 82c48858619accef00e254306aa8cd5a653a109ab7708
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA北関東エリア第3戦
@@ -448,8 +454,9 @@ DTSTART:20260426T000000
 DTEND:20260426T220000
 DTSTAMP:20260426T000000Z
 UID:20260426T000000@ARENA中部エリア第2戦
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c39
+ 9fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:None
 LOCATION:[Group1]\nDarts & Sports Tink\n                                  
                                    愛知県名古屋市中区新栄1丁目
  12-21ロイヤル瓦町ビル2F\n                                         
@@ -466,9 +473,11 @@ DTSTART:20260402T190000
 DTEND:20260420T120000
 DTSTAMP:20260402T190000Z
 UID:20260402T190000@ARENA中部エリア第2戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c39
+ 9fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:None
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c399f
+ bfd087b817cb2b3c3c883c04267228875901a3708acd8
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA中部エリア第3戦
