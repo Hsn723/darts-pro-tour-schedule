@@ -301,12 +301,10 @@ DTSTART:20260426T000000
 DTEND:20260426T220000
 DTSTAMP:20260426T000000Z
 UID:20260426T000000@ARENA関東エリア第2戦
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f68
- 9647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:https://coun
- tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImEzZDd
- kNGUyLTI4ZjAtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJhM2RjZmJjMC0yO
- GYwLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6ImEzZDdkNGUyLTI4ZjAtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdy
+ b3VwSWQiOiJhM2RjZmJjMC0yOGYwLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
 LOCATION:Darts Bar Deer\n                                                 
                     東京都国立市中1-10-8-2F東\n                    
                                                  TEL:042-842-0688
@@ -317,14 +315,11 @@ DTSTART:20260402T190000
 DTEND:20260420T120000
 DTSTAMP:20260402T190000Z
 UID:20260402T190000@ARENA関東エリア第2戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f68
- 9647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:https://coun
- tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImEzZDd
- kNGUyLTI4ZjAtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJhM2RjZmJjMC0yO
- GYwLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f6896
- 47d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6ImEzZDdkNGUyLTI4ZjAtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdy
+ b3VwSWQiOiJhM2RjZmJjMC0yOGYwLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関東エリア第3戦
@@ -332,8 +327,12 @@ DTSTART:20260517T000000
 DTEND:20260517T220000
 DTSTAMP:20260517T000000Z
 UID:20260517T000000@ARENA関東エリア第3戦
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3
+ f689647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjI2
+ ODlhNzA5LTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiIyNjhkOTQ0OC
+ 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
 LOCATION:ZICCA\n                                                          
            埼玉県さいたま市中央区本町東1-9-8\n               
                                                       TEL:048-617-0453
@@ -344,9 +343,14 @@ DTSTART:20260423T190000
 DTEND:20260511T120000
 DTSTAMP:20260423T190000Z
 UID:20260423T190000@ARENA関東エリア第3戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3
+ f689647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjI2
+ ODlhNzA5LTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiIyNjhkOTQ0OC
+ 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f6896
+ 47d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA北関東エリア開幕戦
@@ -381,12 +385,10 @@ DTSTART:20260426T000000
 DTEND:20260426T220000
 DTSTAMP:20260426T000000Z
 UID:20260426T000000@ARENA北関東エリア第2戦
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18
- a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://coun
- tup.fidodarts.com/qualifier/introduction?params=eyJxdWFsaWZpZXJJZCI6IjQyNT
- czZTljLTI4ZjYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiI0MjViMWEyZS0y
- OGY2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/introduction?params=e
+ yJxdWFsaWZpZXJJZCI6IjQyNTczZTljLTI4ZjYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImd
+ yb3VwSWQiOiI0MjViMWEyZS0yOGY2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
 LOCATION:meat dinning TABUKIYA\n                                          
                            館林市大手町1-12\n                        
                                              TEL:0276-55-8294
@@ -397,14 +399,11 @@ DTSTART:20260402T190000
 DTEND:20260420T120000
 DTSTAMP:20260402T190000Z
 UID:20260402T190000@ARENA北関東エリア第2戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18
- a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://coun
- tup.fidodarts.com/qualifier/introduction?params=eyJxdWFsaWZpZXJJZCI6IjQyNT
- czZTljLTI4ZjYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiI0MjViMWEyZS0y
- OGY2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18a5
- 82c48858619accef00e254306aa8cd5a653a109ab7708
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/introduction?params=e
+ yJxdWFsaWZpZXJJZCI6IjQyNTczZTljLTI4ZjYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImd
+ yb3VwSWQiOiI0MjViMWEyZS0yOGY2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA北関東エリア第3戦
@@ -412,8 +411,12 @@ DTSTART:20260517T000000
 DTEND:20260517T220000
 DTSTAMP:20260517T000000Z
 UID:20260517T000000@ARENA北関東エリア第3戦
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09
+ d18a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjY2
+ MTk1MGNjLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiI2NjFkNDVlMy
+ 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
 LOCATION:ASOBI BAR RANBUL\n                                               
                       茨城県筑西市幸町1-2-18\n                     
                                                 TEL:0296-28-6617
@@ -424,9 +427,14 @@ DTSTART:20260423T190000
 DTEND:20260511T120000
 DTSTAMP:20260423T190000Z
 UID:20260423T190000@ARENA北関東エリア第3戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09
+ d18a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjY2
+ MTk1MGNjLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiI2NjFkNDVlMy
+ 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18a5
+ 82c48858619accef00e254306aa8cd5a653a109ab7708
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA中部エリア開幕戦
@@ -466,12 +474,10 @@ DTSTART:20260426T000000
 DTEND:20260426T220000
 DTSTAMP:20260426T000000Z
 UID:20260426T000000@ARENA中部エリア第2戦
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c39
- 9fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:https://coun
- tup.fidodarts.com/qualifier/introduction?params=eyJxdWFsaWZpZXJJZCI6ImYzMG
- Q2ZWQyLTI4ZjYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJmMzExNDdkNi0y
- OGY2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/introduction?params=e
+ yJxdWFsaWZpZXJJZCI6ImYzMGQ2ZWQyLTI4ZjYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImd
+ yb3VwSWQiOiJmMzExNDdkNi0yOGY2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
 LOCATION:[Group1]\nDarts & Sports Tink\n                                  
                                    愛知県名古屋市中区新栄1丁目
  12-21ロイヤル瓦町ビル2F\n                                         
@@ -488,14 +494,11 @@ DTSTART:20260402T190000
 DTEND:20260420T120000
 DTSTAMP:20260402T190000Z
 UID:20260402T190000@ARENA中部エリア第2戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c39
- 9fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:https://coun
- tup.fidodarts.com/qualifier/introduction?params=eyJxdWFsaWZpZXJJZCI6ImYzMG
- Q2ZWQyLTI4ZjYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJmMzExNDdkNi0y
- OGY2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c399f
- bfd087b817cb2b3c3c883c04267228875901a3708acd8
+DESCRIPTION:\n予選:\n2026/4/2(木)19:00\n ～ 2026/4/20(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/introduction?params=e
+ yJxdWFsaWZpZXJJZCI6ImYzMGQ2ZWQyLTI4ZjYtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImd
+ yb3VwSWQiOiJmMzExNDdkNi0yOGY2LTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA中部エリア第3戦
@@ -503,8 +506,12 @@ DTSTART:20260517T000000
 DTEND:20260517T220000
 DTSTAMP:20260517T000000Z
 UID:20260517T000000@ARENA中部エリア第3戦
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336
+ c399fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImMy
+ MTg1MzBkLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJjMjFiZmE1MC
+ 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
 LOCATION:和やかふぇ こころひとつ\n                             
                                         愛知県名古屋市中区大須1-
  7-5アクセス1751F\n                                                    
@@ -516,9 +523,14 @@ DTSTART:20260423T190000
 DTEND:20260511T120000
 DTSTAMP:20260423T190000Z
 UID:20260423T190000@ARENA中部エリア第3戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336
+ c399fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImMy
+ MTg1MzBkLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJjMjFiZmE1MC
+ 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c399f
+ bfd087b817cb2b3c3c883c04267228875901a3708acd8
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関西エリア開幕戦
@@ -526,8 +538,12 @@ DTSTART:20260517T000000
 DTEND:20260517T220000
 DTSTAMP:20260517T000000Z
 UID:20260517T000000@ARENA関西エリア開幕戦
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911
+ e17b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImNm
+ NWJhNjAyLTM3YzEtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJjZjYwNmU3ZS
+ 0zN2MxLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
 LOCATION:901-QLAY-梅田\n                                                
                      大阪府大阪市北区太融寺町8-2 エーワン
  ビル1F
@@ -538,9 +554,14 @@ DTSTART:20260423T190000
 DTEND:20260511T120000
 DTSTAMP:20260423T190000Z
 UID:20260423T190000@ARENA関西エリア開幕戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911
+ e17b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://c
+ ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImNm
+ NWJhNjAyLTM3YzEtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJjZjYwNmU3ZS
+ 0zN2MxLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17b5
+ 54f13c814b6669214b06d09c791f7f7cfa8993ea6d385
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関西エリア第2戦
