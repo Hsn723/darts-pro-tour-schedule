@@ -870,8 +870,9 @@ DTSTART:20260607T000000
 DTEND:20260607T220000
 DTSTAMP:20260607T000000Z
 UID:20260607T000000@WOMAN九州・山口エリア第５戦
-DESCRIPTION:\n予選:\n2026/5/7(木)19:00\n ～ 2026/5/22(金)24:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/5/7(木)19:00\n ～ 2026/5/22(金)24:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/088c0c742d2fc8f68
+ 7aab815fa8509f05c3921099805929120b164718f859569\n予選状況:None
 LOCATION:海峡メッセ下関\n                                          
                            山口県下関市豊前田町３丁目３−１
  \n                                                                \n\n    
@@ -884,9 +885,11 @@ DTSTART:20260507T190000
 DTEND:20260522T235900
 DTSTAMP:20260507T190000Z
 UID:20260507T190000@WOMAN九州・山口エリア第５戦 (予選)
-DESCRIPTION:\n予選:\n2026/5/7(木)19:00\n ～ 2026/5/22(金)24:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/5/7(木)19:00\n ～ 2026/5/22(金)24:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/088c0c742d2fc8f68
+ 7aab815fa8509f05c3921099805929120b164718f859569\n予選状況:None
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/088c0c742d2fc8f687a
+ ab815fa8509f05c3921099805929120b164718f859569
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR WOMAN九州・山口エリア最終戦
