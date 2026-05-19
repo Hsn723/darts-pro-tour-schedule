@@ -336,12 +336,10 @@ DTSTART:20260517T000000
 DTEND:20260517T220000
 DTSTAMP:20260517T000000Z
 UID:20260517T000000@ARENA関東エリア第3戦
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
- 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3
- f689647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:https://c
- ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjI2
- ODlhNzA5LTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiIyNjhkOTQ0OC
- 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6IjI2ODlhNzA5LTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdy
+ b3VwSWQiOiIyNjhkOTQ0OC0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
 LOCATION:ZICCA\n                                                          
            埼玉県さいたま市中央区本町東1-9-8\n               
                                                       TEL:048-617-0453
@@ -352,14 +350,11 @@ DTSTART:20260423T190000
 DTEND:20260511T120000
 DTSTAMP:20260423T190000Z
 UID:20260423T190000@ARENA関東エリア第3戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
- 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3
- f689647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:https://c
- ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjI2
- ODlhNzA5LTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiIyNjhkOTQ0OC
- 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f6896
- 47d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6IjI2ODlhNzA5LTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdy
+ b3VwSWQiOiIyNjhkOTQ0OC0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA北関東エリア開幕戦
@@ -420,12 +415,10 @@ DTSTART:20260517T000000
 DTEND:20260517T220000
 DTSTAMP:20260517T000000Z
 UID:20260517T000000@ARENA北関東エリア第3戦
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
- 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09
- d18a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://c
- ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjY2
- MTk1MGNjLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiI2NjFkNDVlMy
- 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6IjY2MTk1MGNjLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdy
+ b3VwSWQiOiI2NjFkNDVlMy0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
 LOCATION:ASOBI BAR RANBUL\n                                               
                       茨城県筑西市幸町1-2-18\n                     
                                                 TEL:0296-28-6617
@@ -436,14 +429,11 @@ DTSTART:20260423T190000
 DTEND:20260511T120000
 DTSTAMP:20260423T190000Z
 UID:20260423T190000@ARENA北関東エリア第3戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
- 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09
- d18a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://c
- ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjY2
- MTk1MGNjLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiI2NjFkNDVlMy
- 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18a5
- 82c48858619accef00e254306aa8cd5a653a109ab7708
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6IjY2MTk1MGNjLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdy
+ b3VwSWQiOiI2NjFkNDVlMy0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA中部エリア開幕戦
@@ -515,12 +505,10 @@ DTSTART:20260517T000000
 DTEND:20260517T220000
 DTSTAMP:20260517T000000Z
 UID:20260517T000000@ARENA中部エリア第3戦
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
- 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336
- c399fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:https://c
- ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImMy
- MTg1MzBkLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJjMjFiZmE1MC
- 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6ImMyMTg1MzBkLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdy
+ b3VwSWQiOiJjMjFiZmE1MC0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
 LOCATION:和やかふぇ こころひとつ\n                             
                                         愛知県名古屋市中区大須1-
  7-5アクセス1751F\n                                                    
@@ -532,14 +520,11 @@ DTSTART:20260423T190000
 DTEND:20260511T120000
 DTSTAMP:20260423T190000Z
 UID:20260423T190000@ARENA中部エリア第3戦 (予選)
-DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n
- 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336
- c399fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:https://c
- ountup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImMy
- MTg1MzBkLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdyb3VwSWQiOiJjMjFiZmE1MC
- 0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c399f
- bfd087b817cb2b3c3c883c04267228875901a3708acd8
+DESCRIPTION:\n予選:\n2026/4/23(木)19:00\n ～ 2026/5/11(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6ImMyMTg1MzBkLTM3YzMtMTFmMS04NWI4LTA2ZTNkYWFlM2MwZiIsImdy
+ b3VwSWQiOiJjMjFiZmE1MC0zN2MzLTExZjEtODViOC0wNmUzZGFhZTNjMGYifQ%3D%3D
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関西エリア開幕戦
