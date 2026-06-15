@@ -698,12 +698,10 @@ DTSTART:20260613T000000
 DTEND:20260613T220000
 DTSTAMP:20260613T000000Z
 UID:20260613T000000@ARENA関西エリア第2戦
-DESCRIPTION:\n予選:\n2026/5/21(木)19:00\n ～ 2026/6/8(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17
- b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://coun
- tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImQ5Mjc
- 2NmIxLTUwMjItMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiJkOTJhYjVkYy01M
- DIyLTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
+DESCRIPTION:\n予選:\n2026/5/21(木)19:00\n ～ 2026/6/8(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6ImQ5Mjc2NmIxLTUwMjItMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdy
+ b3VwSWQiOiJkOTJhYjVkYy01MDIyLTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
 LOCATION:DARTS Bar Famous\n                                               
                       大阪府大阪市中央区東心斎橋1-6-20　東
  心斎橋ビル5階\n                                                     
@@ -715,14 +713,11 @@ DTSTART:20260521T190000
 DTEND:20260608T120000
 DTSTAMP:20260521T190000Z
 UID:20260521T190000@ARENA関西エリア第2戦 (予選)
-DESCRIPTION:\n予選:\n2026/5/21(木)19:00\n ～ 2026/6/8(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17
- b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://coun
- tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImQ5Mjc
- 2NmIxLTUwMjItMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiJkOTJhYjVkYy01M
- DIyLTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17b5
- 54f13c814b6669214b06d09c791f7f7cfa8993ea6d385
+DESCRIPTION:\n予選:\n2026/5/21(木)19:00\n ～ 2026/6/8(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6ImQ5Mjc2NmIxLTUwMjItMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdy
+ b3VwSWQiOiJkOTJhYjVkYy01MDIyLTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関西エリア第3戦
