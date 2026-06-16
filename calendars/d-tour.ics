@@ -699,9 +699,7 @@ DTEND:20260613T220000
 DTSTAMP:20260613T000000Z
 UID:20260613T000000@ARENA関西エリア第2戦
 DESCRIPTION:\n予選:\n2026/5/21(木)19:00\n ～ 2026/6/8(月)12:00\n\n
- 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
- JxdWFsaWZpZXJJZCI6ImQ5Mjc2NmIxLTUwMjItMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdy
- b3VwSWQiOiJkOTJhYjVkYy01MDIyLTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
+ 予選状況:None
 LOCATION:DARTS Bar Famous\n                                               
                       大阪府大阪市中央区東心斎橋1-6-20　東
  心斎橋ビル5階\n                                                     
@@ -714,9 +712,7 @@ DTEND:20260608T120000
 DTSTAMP:20260521T190000Z
 UID:20260521T190000@ARENA関西エリア第2戦 (予選)
 DESCRIPTION:\n予選:\n2026/5/21(木)19:00\n ～ 2026/6/8(月)12:00\n\n
- 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
- JxdWFsaWZpZXJJZCI6ImQ5Mjc2NmIxLTUwMjItMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdy
- b3VwSWQiOiJkOTJhYjVkYy01MDIyLTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
+ 予選状況:None
 LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
@@ -725,8 +721,12 @@ DTSTART:20260711T000000
 DTEND:20260711T220000
 DTSTAMP:20260711T000000Z
 UID:20260711T000000@ARENA関西エリア第3戦
-DESCRIPTION:\n予選:\n2026/6/18(木)19:00\n ～ 2026/7/6(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/6/18(木)19:00\n ～ 2026/7/6(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17
+ b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://coun
+ tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjA0YTQ
+ 1MjkyLTVmZjgtMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiIwNGE3ZTAyZC01Z
+ mY4LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
 LOCATION:901-QLAY-梅田\n                                                
                      大阪府大阪市北区太融寺町8-2 エーワン
  ビル1F
@@ -737,9 +737,14 @@ DTSTART:20260618T190000
 DTEND:20260706T120000
 DTSTAMP:20260618T190000Z
 UID:20260618T190000@ARENA関西エリア第3戦 (予選)
-DESCRIPTION:\n予選:\n2026/6/18(木)19:00\n ～ 2026/7/6(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/6/18(木)19:00\n ～ 2026/7/6(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17
+ b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://coun
+ tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjA0YTQ
+ 1MjkyLTVmZjgtMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiIwNGE3ZTAyZC01Z
+ mY4LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17b5
+ 54f13c814b6669214b06d09c791f7f7cfa8993ea6d385
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関西エリア第4戦
@@ -1030,7 +1035,10 @@ DTSTAMP:20260802T000000Z
 UID:20260802T000000@WOMAN ARENA九州・山口エリア最終戦
 DESCRIPTION:\n予選:\n2026/7/2(木)19:00\n ～ 2026/7/17(金)24:00\n予
  選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/088c0c742d2fc8f68
- 7aab815fa8509f05c3921099805929120b164718f859569\n予選状況:None
+ 7aab815fa8509f05c3921099805929120b164718f859569\n予選状況:https://coun
+ tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImExMjk
+ 1Mzc0LTU4MDYtMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiJhMTJjOWEyNC01O
+ DA2LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
 LOCATION:熊本市流通情報会館\n                                    
                                  熊本県熊本市南区流通団地１−
  ２４\n                                                                \n
@@ -1045,7 +1053,10 @@ DTSTAMP:20260702T190000Z
 UID:20260702T190000@WOMAN ARENA九州・山口エリア最終戦 (予選)
 DESCRIPTION:\n予選:\n2026/7/2(木)19:00\n ～ 2026/7/17(金)24:00\n予
  選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/088c0c742d2fc8f68
- 7aab815fa8509f05c3921099805929120b164718f859569\n予選状況:None
+ 7aab815fa8509f05c3921099805929120b164718f859569\n予選状況:https://coun
+ tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImExMjk
+ 1Mzc0LTU4MDYtMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiJhMTJjOWEyNC01O
+ DA2LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
 LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/088c0c742d2fc8f687a
  ab815fa8509f05c3921099805929120b164718f859569
 END:VEVENT
