@@ -213,12 +213,10 @@ DTSTART:20260705T000000
 DTEND:20260705T220000
 DTSTAMP:20260705T000000Z
 UID:20260705T000000@ARENA九州・山口エリア第４戦
-DESCRIPTION:\n予選:\n2026/6/4(木)19:00\n ～ 2026/6/19(金)24:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2
- c053d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0\n予選状況:https://coun
- tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjFmZTM
- yYjY4LTU4MDktMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiIxZmU2M2JhNS01O
- DA5LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
+DESCRIPTION:\n予選:\n2026/6/4(木)19:00\n ～ 2026/6/19(金)24:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6IjFmZTMyYjY4LTU4MDktMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdy
+ b3VwSWQiOiIxZmU2M2JhNS01ODA5LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
 LOCATION:地場産くるめ\n                                             
                         福岡県久留米市東合川５丁目８−５\n 
                                                                 \n\n       
@@ -231,14 +229,11 @@ DTSTART:20260604T190000
 DTEND:20260619T235900
 DTSTAMP:20260604T190000Z
 UID:20260604T190000@ARENA九州・山口エリア第４戦 (予選)
-DESCRIPTION:\n予選:\n2026/6/4(木)19:00\n ～ 2026/6/19(金)24:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2
- c053d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0\n予選状況:https://coun
- tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjFmZTM
- yYjY4LTU4MDktMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiIxZmU2M2JhNS01O
- DA5LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2c0
- 53d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0
+DESCRIPTION:\n予選:\n2026/6/4(木)19:00\n ～ 2026/6/19(金)24:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6IjFmZTMyYjY4LTU4MDktMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdy
+ b3VwSWQiOiIxZmU2M2JhNS01ODA5LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA九州・山口エリア第５戦
@@ -246,8 +241,12 @@ DTSTART:20260802T000000
 DTEND:20260802T220000
 DTSTAMP:20260802T000000Z
 UID:20260802T000000@ARENA九州・山口エリア第５戦
-DESCRIPTION:\n予選:\n2026/7/2(木)19:00\n ～ 2026/7/17(金)24:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/7/2(木)19:00\n ～ 2026/7/17(金)24:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2
+ c053d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0\n予選状況:https://coun
+ tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImViZjJ
+ kMGUzLTczOTgtMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiJlYmY2ZGRiOS03M
+ zk4LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
 LOCATION:熊本市流通情報会館\n                                    
                                  熊本県熊本市南区流通団地１−
  ２４\n                                                                \n
@@ -260,9 +259,14 @@ DTSTART:20260702T190000
 DTEND:20260717T235900
 DTSTAMP:20260702T190000Z
 UID:20260702T190000@ARENA九州・山口エリア第５戦 (予選)
-DESCRIPTION:\n予選:\n2026/7/2(木)19:00\n ～ 2026/7/17(金)24:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/7/2(木)19:00\n ～ 2026/7/17(金)24:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2
+ c053d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0\n予選状況:https://coun
+ tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6ImViZjJ
+ kMGUzLTczOTgtMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiJlYmY2ZGRiOS03M
+ zk4LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2c0
+ 53d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA九州・山口エリア最終戦
