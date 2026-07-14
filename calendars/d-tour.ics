@@ -48,9 +48,8 @@ DTSTAMP:20260720T000000Z
 UID:20260720T000000@CONNECT第３戦
 DESCRIPTION:会場: https://aa2fcaaa.viewer.kintoneapp.com/public/010ab871
  a8ce7295b423d81218652db0f15eb10b1c9c25f388d18310e2a71d4c\n予選:\n2026/6/
- 25（木）19:00\n ～ 2026/7/13（月）12:00\n予選会場: https://aa
- 2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6fdde510321b5c13ba4b03469e24e5a
- 80bc95fa0784ef2a36ab6380f0\n予選状況:https://countup.fidodarts.com/
+ 25（木）19:00\n ～ 2026/7/13（月）12:00\n\n予選状況:https://c
+ ountup.fidodarts.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT第３戦 (予選)
@@ -60,11 +59,9 @@ DTSTAMP:20260625T190000Z
 UID:20260625T190000@CONNECT第３戦 (予選)
 DESCRIPTION:会場: https://aa2fcaaa.viewer.kintoneapp.com/public/010ab871
  a8ce7295b423d81218652db0f15eb10b1c9c25f388d18310e2a71d4c\n予選:\n2026/6/
- 25（木）19:00\n ～ 2026/7/13（月）12:00\n予選会場: https://aa
- 2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6fdde510321b5c13ba4b03469e24e5a
- 80bc95fa0784ef2a36ab6380f0\n予選状況:https://countup.fidodarts.com/
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6fdde510321b
- 5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0
+ 25（木）19:00\n ～ 2026/7/13（月）12:00\n\n予選状況:https://c
+ ountup.fidodarts.com/
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT第４戦
@@ -73,7 +70,8 @@ DTEND:20260811T220000
 DTSTAMP:20260811T000000Z
 UID:20260811T000000@CONNECT第４戦
 DESCRIPTION:\n予選:\n2026/7/16（木）19:00\n ～ 2026/8/4（火）12
- :00\n\n予選状況:None
+ :00\n予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6f
+ dde510321b5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0\n予選状況:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT第４戦 (予選)
@@ -82,8 +80,10 @@ DTEND:20260804T120000
 DTSTAMP:20260716T190000Z
 UID:20260716T190000@CONNECT第４戦 (予選)
 DESCRIPTION:\n予選:\n2026/7/16（木）19:00\n ～ 2026/8/4（火）12
- :00\n\n予選状況:None
-LOCATION:None
+ :00\n予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6f
+ dde510321b5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0\n予選状況:None
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6fdde510321b
+ 5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT第５戦
@@ -830,9 +830,8 @@ DTSTAMP:20260720T000000Z
 UID:20260720T000000@WOMAN CONNECT第2戦
 DESCRIPTION:会場: https://aa2fcaaa.viewer.kintoneapp.com/public/2dfd2dc3
  df50114d432a7d969ff6e6d0a66e710c7937ccb93fffb76ce129b425\n予選:\n2026/6/
- 25(木)19:00\n ～ 2026/7/13(月)12:00\n予選会場: https://aa2fcaaa.v
- iewer.kintoneapp.com/public/7241be181ac0588389118c0921f03a7c052bc5024f1b9c
- 532b5dd150bf98d429\n予選状況:https://countup.fidodarts.com/
+ 25(木)19:00\n ～ 2026/7/13(月)12:00\n\n予選状況:https://countup.f
+ idodarts.com/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR WOMAN CONNECT第2戦 (予選)
@@ -842,11 +841,9 @@ DTSTAMP:20260625T190000Z
 UID:20260625T190000@WOMAN CONNECT第2戦 (予選)
 DESCRIPTION:会場: https://aa2fcaaa.viewer.kintoneapp.com/public/2dfd2dc3
  df50114d432a7d969ff6e6d0a66e710c7937ccb93fffb76ce129b425\n予選:\n2026/6/
- 25(木)19:00\n ～ 2026/7/13(月)12:00\n予選会場: https://aa2fcaaa.v
- iewer.kintoneapp.com/public/7241be181ac0588389118c0921f03a7c052bc5024f1b9c
- 532b5dd150bf98d429\n予選状況:https://countup.fidodarts.com/
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac05883891
- 18c0921f03a7c052bc5024f1b9c532b5dd150bf98d429
+ 25(木)19:00\n ～ 2026/7/13(月)12:00\n\n予選状況:https://countup.f
+ idodarts.com/
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR WOMAN CONNECT第3戦
@@ -854,8 +851,9 @@ DTSTART:20260811T000000
 DTEND:20260811T220000
 DTSTAMP:20260811T000000Z
 UID:20260811T000000@WOMAN CONNECT第3戦
-DESCRIPTION:\n予選:\n2026/7/16(木)19:00\n ～ 2026/8/4(火)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/7/16(木)19:00\n ～ 2026/8/4(火)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac058838
+ 9118c0921f03a7c052bc5024f1b9c532b5dd150bf98d429\n予選状況:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR WOMAN CONNECT第3戦 (予選)
@@ -863,9 +861,11 @@ DTSTART:20260716T190000
 DTEND:20260804T120000
 DTSTAMP:20260716T190000Z
 UID:20260716T190000@WOMAN CONNECT第3戦 (予選)
-DESCRIPTION:\n予選:\n2026/7/16(木)19:00\n ～ 2026/8/4(火)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/7/16(木)19:00\n ～ 2026/8/4(火)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac058838
+ 9118c0921f03a7c052bc5024f1b9c532b5dd150bf98d429\n予選状況:None
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac05883891
+ 18c0921f03a7c052bc5024f1b9c532b5dd150bf98d429
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR WOMAN CONNECT第4戦
