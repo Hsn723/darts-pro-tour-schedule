@@ -732,12 +732,10 @@ DTSTART:20260711T000000
 DTEND:20260711T220000
 DTSTAMP:20260711T000000Z
 UID:20260711T000000@ARENA関西エリア第3戦
-DESCRIPTION:\n予選:\n2026/6/18(木)19:00\n ～ 2026/7/6(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17
- b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://coun
- tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjA0YTQ
- 1MjkyLTVmZjgtMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiIwNGE3ZTAyZC01Z
- mY4LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
+DESCRIPTION:\n予選:\n2026/6/18(木)19:00\n ～ 2026/7/6(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6IjA0YTQ1MjkyLTVmZjgtMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdy
+ b3VwSWQiOiIwNGE3ZTAyZC01ZmY4LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
 LOCATION:901-QLAY-梅田\n                                                
                      大阪府大阪市北区太融寺町8-2 エーワン
  ビル1F
@@ -748,14 +746,11 @@ DTSTART:20260618T190000
 DTEND:20260706T120000
 DTSTAMP:20260618T190000Z
 UID:20260618T190000@ARENA関西エリア第3戦 (予選)
-DESCRIPTION:\n予選:\n2026/6/18(木)19:00\n ～ 2026/7/6(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17
- b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://coun
- tup.fidodarts.com/qualifier/leaderBoard?params=eyJxdWFsaWZpZXJJZCI6IjA0YTQ
- 1MjkyLTVmZjgtMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdyb3VwSWQiOiIwNGE3ZTAyZC01Z
- mY4LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17b5
- 54f13c814b6669214b06d09c791f7f7cfa8993ea6d385
+DESCRIPTION:\n予選:\n2026/6/18(木)19:00\n ～ 2026/7/6(月)12:00\n\n
+ 予選状況:https://countup.fidodarts.com/qualifier/leaderBoard?params=ey
+ JxdWFsaWZpZXJJZCI6IjA0YTQ1MjkyLTVmZjgtMTFmMS1iODZjLTA2ZTlmZjRhYTllYiIsImdy
+ b3VwSWQiOiIwNGE3ZTAyZC01ZmY4LTExZjEtYjg2Yy0wNmU5ZmY0YWE5ZWIifQ%3D%3D
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関西エリア第4戦
