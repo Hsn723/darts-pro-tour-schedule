@@ -3,12 +3,16 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "daily"
+    cooldown:
+      default-days: 5
     reviewers:
       - hsn723
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "daily"
+    cooldown:
+      default-days: 5
     reviewers:
       - hsn723
