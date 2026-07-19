@@ -7,7 +7,7 @@ on:
     branches:
     - master
 permissions:
-  contents: read
+  contents: write
 jobs:
   update-calendar:
     name: update-calendar
@@ -21,8 +21,6 @@ jobs:
         python update-calendars.py
     - name: Commit and push changes
       if: ${{ github.event_name != 'pull_request' }}
-      permissions:
-        contents: write
       run: |
         git add .
         if [ $(git status --porcelain=v1 2>/dev/null | wc -l) -eq 0 ]; then
