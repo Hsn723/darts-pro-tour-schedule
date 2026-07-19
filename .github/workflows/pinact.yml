@@ -1,0 +1,10 @@
+name: Pinact
+on:
+  pull_request:
+    branches:
+    - master
+permissions:
+  contents: read
+jobs:
+  pinact:
+    uses: hsn723/actions/.github/workflows/pinact.yml@db80a3d03a73c874694fbeb8387b4fda6b9b68e4 # v1.0.27
