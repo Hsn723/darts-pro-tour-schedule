@@ -497,8 +497,10 @@ DTSTART:20260823T000000
 DTEND:20260823T220000
 DTSTAMP:20260823T000000Z
 UID:20260823T000000@ARENA北関東エリア第4戦
-DESCRIPTION:\n予選:\n2026/7/30(木)19:00\n ～ 2026/8/17(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/7/30(木)19:00\n ～ 2026/8/17(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09
+ d18a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://x
+ .gd/nXnaq
 LOCATION:Cafe & Dining YUMO\n                                             
                         茨城県水戸市南町3-3-39 マルニビルデ
  ィング1F-B\n                                                           
@@ -510,9 +512,12 @@ DTSTART:20260730T190000
 DTEND:20260817T120000
 DTSTAMP:20260730T190000Z
 UID:20260730T190000@ARENA北関東エリア第4戦 (予選)
-DESCRIPTION:\n予選:\n2026/7/30(木)19:00\n ～ 2026/8/17(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/7/30(木)19:00\n ～ 2026/8/17(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09
+ d18a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://x
+ .gd/nXnaq
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18a5
+ 82c48858619accef00e254306aa8cd5a653a109ab7708
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA北関東エリア最終戦
@@ -754,8 +759,10 @@ DTSTART:20260822T000000
 DTEND:20260822T220000
 DTSTAMP:20260822T000000Z
 UID:20260822T000000@ARENA関西エリア第4戦
-DESCRIPTION:\n予選:\n2026/7/30(木)19:00\n ～ 2026/8/17(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/7/30(木)19:00\n ～ 2026/8/17(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911
+ e17b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://x
+ .gd/W7bd0
 LOCATION:DARTS Bar Famous\n                                               
                       大阪府大阪市中央区東心斎橋1-6-20　東
  心斎橋ビル5階\n                                                     
@@ -767,9 +774,12 @@ DTSTART:20260730T190000
 DTEND:20260817T120000
 DTSTAMP:20260730T190000Z
 UID:20260730T190000@ARENA関西エリア第4戦 (予選)
-DESCRIPTION:\n予選:\n2026/7/30(木)19:00\n ～ 2026/8/17(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/7/30(木)19:00\n ～ 2026/8/17(月)12:00\n
+ 予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911
+ e17b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://x
+ .gd/W7bd0
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17b5
+ 54f13c814b6669214b06d09c791f7f7cfa8993ea6d385
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関西エリア最終戦
