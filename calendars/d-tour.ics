@@ -67,7 +67,8 @@ DTSTAMP:20260811T000000Z
 UID:20260811T000000@CONNECT第４戦
 DESCRIPTION:\n予選:\n2026/7/16（木）19:00\n ～ 2026/8/4（火）12
  :00\n予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6f
- dde510321b5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0\n予選状況:None
+ dde510321b5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0\n予選状況:http
+ s://x.gd/SkoPq
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT第４戦 (予選)
@@ -77,7 +78,8 @@ DTSTAMP:20260716T190000Z
 UID:20260716T190000@CONNECT第４戦 (予選)
 DESCRIPTION:\n予選:\n2026/7/16（木）19:00\n ～ 2026/8/4（火）12
  :00\n予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6f
- dde510321b5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0\n予選状況:None
+ dde510321b5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0\n予選状況:http
+ s://x.gd/SkoPq
 LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6fdde510321b
  5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0
 END:VEVENT
@@ -850,7 +852,8 @@ DTSTAMP:20260811T000000Z
 UID:20260811T000000@WOMAN CONNECT第3戦
 DESCRIPTION:\n予選:\n2026/7/16(木)19:00\n ～ 2026/8/4(火)12:00\n予
  選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac058838
- 9118c0921f03a7c052bc5024f1b9c532b5dd150bf98d429\n予選状況:None
+ 9118c0921f03a7c052bc5024f1b9c532b5dd150bf98d429\n予選状況:https://x.gd
+ /OQq66
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR WOMAN CONNECT第3戦 (予選)
@@ -860,7 +863,8 @@ DTSTAMP:20260716T190000Z
 UID:20260716T190000@WOMAN CONNECT第3戦 (予選)
 DESCRIPTION:\n予選:\n2026/7/16(木)19:00\n ～ 2026/8/4(火)12:00\n予
  選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac058838
- 9118c0921f03a7c052bc5024f1b9c532b5dd150bf98d429\n予選状況:None
+ 9118c0921f03a7c052bc5024f1b9c532b5dd150bf98d429\n予選状況:https://x.gd
+ /OQq66
 LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac05883891
  18c0921f03a7c052bc5024f1b9c532b5dd150bf98d429
 END:VEVENT
