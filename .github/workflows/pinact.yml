@@ -7,4 +7,4 @@ permissions:
   contents: read
 jobs:
   pinact:
-    uses: hsn723/actions/.github/workflows/pinact.yml@8d22c73fad68ec65cf77237dca91497c804f274a # v1.0.37
+    uses: hsn723/actions/.github/workflows/pinact.yml@a48f27c3e6fa5b0a099473cd4ff0aa71dafb6569 # v1.0.40
