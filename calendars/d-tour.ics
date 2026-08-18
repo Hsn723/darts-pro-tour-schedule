@@ -370,8 +370,10 @@ DTSTART:20260913T000000
 DTEND:20260913T220000
 DTSTAMP:20260913T000000Z
 UID:20260913T000000@ARENA関東エリア第4戦
-DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f68
+ 9647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:https://x.gd
+ /cAlhJ
 LOCATION:BARREL町屋店\n                                                
                      東京都荒川区荒川4-36-2\n                      
                                                TEL:03-6806-6632
@@ -382,9 +384,12 @@ DTSTART:20260820T190000
 DTEND:20260907T120000
 DTSTAMP:20260820T190000Z
 UID:20260820T190000@ARENA関東エリア第4戦 (予選)
-DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f68
+ 9647d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa\n予選状況:https://x.gd
+ /cAlhJ
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/9d24c296d2c2b3f6896
+ 47d33a5cb7ded6637d565d6fb121e97d486b6cc896cfa
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関東エリア最終戦
@@ -522,8 +527,10 @@ DTSTART:20260913T000000
 DTEND:20260913T220000
 DTSTAMP:20260913T000000Z
 UID:20260913T000000@ARENA北関東エリア最終戦
-DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18
+ a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://x.gd
+ /t0mAx
 LOCATION:ASOBI BAR RANBUL\n                                               
                       茨城県筑西市幸町1-2-18\n                     
                                                 TEL:0296-28-6617
@@ -534,9 +541,12 @@ DTSTART:20260820T190000
 DTEND:20260907T120000
 DTSTAMP:20260820T190000Z
 UID:20260820T190000@ARENA北関東エリア最終戦 (予選)
-DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18
+ a582c48858619accef00e254306aa8cd5a653a109ab7708\n予選状況:https://x.gd
+ /t0mAx
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/f7391a6512fc09d18a5
+ 82c48858619accef00e254306aa8cd5a653a109ab7708
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA中部エリア開幕戦
@@ -635,8 +645,10 @@ DTSTART:20260913T000000
 DTEND:20260913T220000
 DTSTAMP:20260913T000000Z
 UID:20260913T000000@ARENA中部エリア第4戦
-DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c39
+ 9fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:https://x.gd
+ /TMFPF
 LOCATION:B-SKY\n                                                          
            愛知県豊明市前後町善江1735 パルネス2階\n        
                                                              TEL:0562-85-61
@@ -648,9 +660,12 @@ DTSTART:20260820T190000
 DTEND:20260907T120000
 DTSTAMP:20260820T190000Z
 UID:20260820T190000@ARENA中部エリア第4戦 (予選)
-DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c39
+ 9fbfd087b817cb2b3c3c883c04267228875901a3708acd8\n予選状況:https://x.gd
+ /TMFPF
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/c6a4148fd8e336c399f
+ bfd087b817cb2b3c3c883c04267228875901a3708acd8
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA中部エリア最終戦
@@ -784,8 +799,10 @@ DTSTART:20260913T000000
 DTEND:20260913T220000
 DTSTAMP:20260913T000000Z
 UID:20260913T000000@ARENA関西エリア最終戦
-DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17
+ b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://x.gd
+ /6AIKt
 LOCATION:DARTS Bar Famous\n                                               
                       大阪府大阪市中央区東心斎橋1-6-20　東
  心斎橋ビル5階\n                                                     
@@ -797,9 +814,12 @@ DTSTART:20260820T190000
 DTEND:20260907T120000
 DTSTAMP:20260820T190000Z
 UID:20260820T190000@ARENA関西エリア最終戦 (予選)
-DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/8/20(木)19:00\n ～ 2026/9/7(月)12:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17
+ b554f13c814b6669214b06d09c791f7f7cfa8993ea6d385\n予選状況:https://x.gd
+ /6AIKt
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/df7973efc8c911e17b5
+ 54f13c814b6669214b06d09c791f7f7cfa8993ea6d385
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR WOMAN CONNECT開幕戦
