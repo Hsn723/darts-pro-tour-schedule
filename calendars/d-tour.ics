@@ -397,8 +397,8 @@ DTSTART:20261103T000000
 DTEND:20261103T220000
 DTSTAMP:20261103T000000Z
 UID:20261103T000000@ARENA関東エリア最終戦
-DESCRIPTION:\n予選:\n2026/10/8(木)19:00\n ～ 2026/10/27(火)12:00\n\
- n予選状況:None
+DESCRIPTION:\n予選:\n2026/10/8(木)19:00\n ～ 2026/10/27(火)12:00\n
+ \n予選状況:None
 LOCATION:AMERICAN GORILLA'S\n                                             
                         東京都台東区根岸1-1-15花久ビル\n       
                                                               TEL:03-6802-3
@@ -410,8 +410,8 @@ DTSTART:20261008T190000
 DTEND:20261027T120000
 DTSTAMP:20261008T190000Z
 UID:20261008T190000@ARENA関東エリア最終戦 (予選)
-DESCRIPTION:\n予選:\n2026/10/8(木)19:00\n ～ 2026/10/27(火)12:00\n\
- n予選状況:None
+DESCRIPTION:\n予選:\n2026/10/8(木)19:00\n ～ 2026/10/27(火)12:00\n
+ \n予選状況:None
 LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
@@ -668,8 +668,8 @@ DTSTART:20261103T000000
 DTEND:20261103T220000
 DTSTAMP:20261103T000000Z
 UID:20261103T000000@ARENA中部エリア最終戦
-DESCRIPTION:\n予選:\n2026/10/8(木)19:00\n ～ 2026/10/27(火)12:00\n\
- n予選状況:None
+DESCRIPTION:\n予選:\n2026/10/8(木)19:00\n ～ 2026/10/27(火)12:00\n
+ \n予選状況:None
 LOCATION:Galleria\n                                                       
               岐阜県岐阜市茜部新所1-228-1 安井ビル1F\n       
                                                               TEL:058-214-8
@@ -681,8 +681,8 @@ DTSTART:20261008T190000
 DTEND:20261027T120000
 DTSTAMP:20261008T190000Z
 UID:20261008T190000@ARENA中部エリア最終戦 (予選)
-DESCRIPTION:\n予選:\n2026/10/8(木)19:00\n ～ 2026/10/27(火)12:00\n\
- n予選状況:None
+DESCRIPTION:\n予選:\n2026/10/8(木)19:00\n ～ 2026/10/27(火)12:00\n
+ \n予選状況:None
 LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
