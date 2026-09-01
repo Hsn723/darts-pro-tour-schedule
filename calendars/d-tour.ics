@@ -85,9 +85,7 @@ DTEND:20260830T220000
 DTSTAMP:20260830T000000Z
 UID:20260830T000000@CONNECT第５戦
 DESCRIPTION:\n予選:\n2026/8/6（木）19:00\n ～ 2026/8/24（月）12
- :00\n予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6f
- dde510321b5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0\n予選状況:http
- s://x.gd/A33iB
+ :00\n\n予選状況:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT第５戦 (予選)
@@ -96,11 +94,8 @@ DTEND:20260824T120000
 DTSTAMP:20260806T190000Z
 UID:20260806T190000@CONNECT第５戦 (予選)
 DESCRIPTION:\n予選:\n2026/8/6（木）19:00\n ～ 2026/8/24（月）12
- :00\n予選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6f
- dde510321b5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0\n予選状況:http
- s://x.gd/A33iB
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/ae2bc9a6fdde510321b
- 5c13ba4b03469e24e5a80bc95fa0784ef2a36ab6380f0
+ :00\n\n予選状況:None
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR CONNECT最終戦
@@ -240,9 +235,8 @@ DTEND:20260913T220000
 DTSTAMP:20260913T000000Z
 UID:20260913T000000@ARENA九州・山口エリア第5戦
 DESCRIPTION:会場: https://da-topi.jp/info/phoenixcup_nishi/\n予選:\n20
- 26/8/13(木)19:00\n ～ 2026/8/28(金)24:00\n予選会場: https://aa2fc
- aaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2c053d1d305882f9c2da51d15
- bc75f731aee2ca1f09c16d0\n予選状況:https://x.gd/3POoG
+ 26/8/13(木)19:00\n ～ 2026/8/28(金)24:00\n\n予選状況:https://x.gd
+ /3POoG
 LOCATION:炎の博記念堂\n                                             
                         佐賀県西松浦郡有田町黒川甲１７８８
  \n                                                                \n[同
@@ -255,11 +249,9 @@ DTEND:20260828T235900
 DTSTAMP:20260813T190000Z
 UID:20260813T190000@ARENA九州・山口エリア第5戦 (予選)
 DESCRIPTION:会場: https://da-topi.jp/info/phoenixcup_nishi/\n予選:\n20
- 26/8/13(木)19:00\n ～ 2026/8/28(金)24:00\n予選会場: https://aa2fc
- aaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2c053d1d305882f9c2da51d15
- bc75f731aee2ca1f09c16d0\n予選状況:https://x.gd/3POoG
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2c0
- 53d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0
+ 26/8/13(木)19:00\n ～ 2026/8/28(金)24:00\n\n予選状況:https://x.gd
+ /3POoG
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA九州・山口エリア最終戦
@@ -267,8 +259,9 @@ DTSTART:20260927T000000
 DTEND:20260927T220000
 DTSTAMP:20260927T000000Z
 UID:20260927T000000@ARENA九州・山口エリア最終戦
-DESCRIPTION:\n予選:\n2026/9/3(木)19:00\n ～ 2026/9/18(金)24:00\n\n
- 予選状況:None
+DESCRIPTION:\n予選:\n2026/9/3(木)19:00\n ～ 2026/9/18(金)24:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2
+ c053d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0\n予選状況:None
 LOCATION:地場産くるめ\n                                             
                         福岡県久留米市東合川５丁目８−５\n 
                                                                 \n\n       
@@ -281,9 +274,11 @@ DTSTART:20260903T190000
 DTEND:20260918T235900
 DTSTAMP:20260903T190000Z
 UID:20260903T190000@ARENA九州・山口エリア最終戦 (予選)
-DESCRIPTION:\n予選:\n2026/9/3(木)19:00\n ～ 2026/9/18(金)24:00\n\n
- 予選状況:None
-LOCATION:None
+DESCRIPTION:\n予選:\n2026/9/3(木)19:00\n ～ 2026/9/18(金)24:00\n予
+ 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2
+ c053d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0\n予選状況:None
+LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/bf6216ed9f00e82b2c0
+ 53d1d305882f9c2da51d15bc75f731aee2ca1f09c16d0
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR ARENA関東エリア開幕戦
@@ -874,10 +869,8 @@ DTSTART:20260830T000000
 DTEND:20260830T220000
 DTSTAMP:20260830T000000Z
 UID:20260830T000000@WOMAN CONNECT第4戦
-DESCRIPTION:\n予選:\n2026/8/6(木)19:00\n ～ 2026/8/24(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac058838
- 9118c0921f03a7c052bc5024f1b9c532b5dd150bf98d429\n予選状況:https://x.gd
- /ujXMb
+DESCRIPTION:\n予選:\n2026/8/6(木)19:00\n ～ 2026/8/24(月)12:00\n\n
+ 予選状況:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR WOMAN CONNECT第4戦 (予選)
@@ -885,12 +878,9 @@ DTSTART:20260806T190000
 DTEND:20260824T120000
 DTSTAMP:20260806T190000Z
 UID:20260806T190000@WOMAN CONNECT第4戦 (予選)
-DESCRIPTION:\n予選:\n2026/8/6(木)19:00\n ～ 2026/8/24(月)12:00\n予
- 選会場: https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac058838
- 9118c0921f03a7c052bc5024f1b9c532b5dd150bf98d429\n予選状況:https://x.gd
- /ujXMb
-LOCATION:https://aa2fcaaa.viewer.kintoneapp.com/public/7241be181ac05883891
- 18c0921f03a7c052bc5024f1b9c532b5dd150bf98d429
+DESCRIPTION:\n予選:\n2026/8/6(木)19:00\n ～ 2026/8/24(月)12:00\n\n
+ 予選状況:None
+LOCATION:None
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DTOUR WOMAN CONNECT最終戦
